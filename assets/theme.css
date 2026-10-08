@@ -1,0 +1,241 @@
+/* Shared preferences and theme layer. Loaded after each page's own styles. */
+:root {
+  color-scheme: light;
+  --surface: #fff;
+  --panel: #13241d;
+  --focus: #376ef4;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #e8f0e9;
+  --muted: #a7b8ae;
+  --green: #9bd6b4;
+  --lime: #d5f17a;
+  --line: #33493c;
+  --paper: #0d1712;
+  --soft: #1b2c23;
+  --surface: #14221b;
+  --panel: #1c3426;
+  --focus: #b9dbff;
+  scrollbar-color: #637e6d var(--paper);
+}
+
+/* Keep both controls next to the brand on compact screens. */
+header { gap: 24px; }
+header nav { margin-left: auto; }
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+}
+.theme-toggle,
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: var(--surface);
+  color: var(--ink);
+  font: 600 13px/1.3 Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.theme-toggle:hover,
+.language-toggle:hover { background: var(--soft); border-color: var(--green); }
+.theme-toggle svg { display: block; width: 18px; height: 18px; flex: none; }
+.theme-toggle .theme-icon-sun { display: none; }
+html[data-theme="dark"] .theme-toggle .theme-icon-moon { display: none; }
+html[data-theme="dark"] .theme-toggle .theme-icon-sun { display: block; }
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+input:focus-visible { outline-color: var(--focus); }
+
+/* The contribution invitation is useful in either theme and language. */
+.contribute-callout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 26px 28px;
+  margin: 0 0 32px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--green);
+  border-radius: 6px;
+  background: var(--soft);
+}
+.contribute-callout h2 { font-size: 25px; line-height: 1.25; letter-spacing: -.6px; margin: 0 0 9px; }
+.contribute-callout p { max-width: 760px; font-size: 15px; line-height: 1.6; color: var(--muted); margin: 0; }
+.contribute-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  min-height: 44px;
+  padding: 12px 18px;
+  border: 1px solid var(--green);
+  border-radius: 5px;
+  background: var(--green);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+}
+.contribute-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Surfaces that were hard-coded white in the original page styles. */
+html[data-theme="dark"] body { color: var(--ink); background: var(--paper); }
+html[data-theme="dark"] header { background: #0d1712ed; }
+html[data-theme="dark"] :is(.btn, .detail, .case, .task-card, .catalogue-toolbar input,
+  .chart-tabs button, .analysis-tabs button, .figure-panel, .figure-strip,
+  .client-dialogue blockquote, .client-dialogue blockquote:after, .delivery-timing,
+  .demo-controls, .demo-progress button, .demo-turn, .demo-message p) {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--line);
+}
+html[data-theme="dark"] .motivation-figure :is(.figure-heading, figcaption) { background: var(--surface); }
+html[data-theme="dark"] .step[aria-selected="true"] { background: var(--surface); }
+html[data-theme="dark"] .catalogue-toolbar input::placeholder { color: var(--muted); opacity: 1; }
+html[data-theme="dark"] #orsim { background: var(--paper); }
+html[data-theme="dark"] :is(.demo-brief-meta, .demo-inspector) { background: var(--soft); }
+html[data-theme="dark"] .demo-message.orsim p { background: #1c3024; border-color: #3c5946; }
+html[data-theme="dark"] .demo-progress button[aria-current="step"] { background: var(--soft); color: var(--green); border-color: var(--green); }
+html[data-theme="dark"] :is(.demo-stamp, .demo-turn-number, .demo-trace li) { border-color: var(--line); }
+html[data-theme="dark"] .demo-trace li:last-child { border-left-color: transparent; }
+html[data-theme="dark"] .demo-control-actions .btn[aria-pressed="true"] { background: var(--soft); border-color: var(--green); color: var(--green); }
+html[data-theme="dark"] .btn[disabled] { background: var(--soft); color: #8fa296; }
+html[data-theme="dark"] tr.best td { background: #253622; }
+
+/* --ink now means light text; explicitly retain the original dark panels. */
+html[data-theme="dark"] :is(.brand-mark, .hero-visual, .closing,
+  .metric-summary .highlight, .figure-model, .demo-brief-copy, .demo-speaker span) {
+  background: var(--panel);
+  color: var(--ink);
+  border-color: var(--line);
+}
+html[data-theme="dark"] .brand-mark { color: var(--lime); }
+html[data-theme="dark"] :is(.hero-visual, .closing) { box-shadow: inset 0 0 0 1px var(--line); }
+html[data-theme="dark"] .demo-message.orsim .demo-speaker span { background: var(--green); color: #13241d; }
+html[data-theme="dark"] :is(.btn.primary, .segmented button[aria-pressed="true"],
+  .chart-tabs button[aria-pressed="true"], .analysis-tabs button[aria-selected="true"]) {
+  background: var(--lime);
+  color: #13241d;
+  border-color: var(--lime);
+}
+html[data-theme="dark"] .resource-badge.github { box-shadow: inset 0 0 0 1px #506053; }
+html[data-theme="dark"] .figure-improvement { background: #1c3024; border-color: #476652; }
+html[data-theme="dark"] .project-fields span { background: var(--soft); border-color: #476652; }
+html[data-theme="dark"] .gap-model { border-color: #637e6d; }
+html[data-theme="dark"] .contribute-link { color: #13241d; }
+
+/* External schematics keep their authored canvas and internal contrast. */
+html[data-theme="dark"] .case-schematic { background: #f3f6f4; border-color: #506053; }
+
+/* Chart chrome follows the page, while data colors retain their meaning. */
+html[data-theme="dark"] .or-chart { color: var(--ink); background: var(--surface); border-color: var(--line); }
+html[data-theme="dark"] .or-chart :is(.or-chart-kicker, .or-chart-note strong, summary, a) { color: var(--green); }
+html[data-theme="dark"] .or-chart :is(.or-chart-summary, .or-chart-note, caption) { color: var(--muted); }
+html[data-theme="dark"] .or-chart :is(details, th, td) { border-color: var(--line); }
+html[data-theme="dark"] .or-chart th { background: var(--soft); }
+html[data-theme="dark"] .or-chart .or-chart-swatch { border-color: #8ba49366; }
+html[data-theme="dark"] .or-chart :is(.or-chart-scroll, summary):focus-visible { outline-color: var(--focus); }
+html[data-theme="dark"] .or-chart text[fill="#13241d"] { fill: var(--ink); }
+html[data-theme="dark"] .or-chart text[fill="#617269"] { fill: var(--muted); }
+html[data-theme="dark"] .or-chart [stroke="#dce6de"] { stroke: var(--line); }
+html[data-theme="dark"] .or-chart [stroke="#617269"] { stroke: #96ab9e; }
+html[data-theme="dark"] .or-chart [stroke="#60726988"] { stroke: #a7b8ae99; }
+html[data-theme="dark"] .or-chart [stroke="#13241d"] { stroke: var(--ink); }
+html[data-theme="dark"] .or-chart :is(.or-research-cell, .or-failure-cell) > rect { stroke: var(--surface); }
+html[data-theme="dark"] .or-chart :is(.or-research-cell, .or-failure-cell):focus-visible > rect { stroke: var(--focus); }
+html[data-theme="dark"] #or-f5-timing rect[fill="#fff"] { fill: var(--surface); }
+html[data-theme="dark"] #or-f4-quality [stroke="#fff"] { stroke: var(--surface); }
+
+/* Heatmap percentages sit on unchanged cells, not on the dark chart surface.
+   Their authored black/white contrast must remain separate from axis labels. */
+html[data-theme="dark"] :is(#or-f6-techniques, #or-f7-objectives, #or-f7-structure)
+  text[font-weight="650"][fill="#13241d"] { fill: #13241d; }
+html[data-theme="dark"] :is(#or-f6-techniques, #or-f7-objectives, #or-f7-structure)
+  text[font-weight="650"][fill="#fff"] { fill: #fff; }
+html[data-theme="dark"] :is(#or-f6-techniques, #or-f7-objectives, #or-f7-structure)
+  [stroke="#196748"] { stroke: var(--green); }
+html[data-theme="dark"] :is(#or-research-readout, #or-failure-readout) rect { fill: #13241d; stroke: #d5f17a; }
+html[data-theme="dark"] :is(#or-research-readout, #or-failure-readout) text { fill: #fff; }
+
+/* Brighter counterparts keep all eleven profile/scatter series visible.
+   Identical selectors also recolor their in-SVG legend markers. */
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#a56b29"] { stroke: #d7aa68; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#a56b29"] { fill: #d7aa68; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#316aa1"] { stroke: #77afe3; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#316aa1"] { fill: #77afe3; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#608837"] { stroke: #b3c982; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#608837"] { fill: #b3c982; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#5386ad"] { stroke: #8abce0; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#5386ad"] { fill: #8abce0; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#b96559"] { stroke: #e09a8e; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#b96559"] { fill: #e09a8e; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#178d79"] { stroke: #65c7b4; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#178d79"] { fill: #65c7b4; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#183e30"] { stroke: #c5e3ce; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#183e30"] { fill: #c5e3ce; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#bc950f"] { stroke: #e1c153; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#bc950f"] { fill: #e1c153; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#8e6e97"] { stroke: #c1a1cb; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#8e6e97"] { fill: #c1a1cb; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#4095a6"] { stroke: #8ac8d4; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#4095a6"] { fill: #8ac8d4; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [stroke="#6861a0"] { stroke: #aaa2de; }
+html[data-theme="dark"] :is(#or-t1-profile, #or-f4-quality) [fill="#6861a0"] { fill: #aaa2de; }
+
+/* CJK glyphs need natural spacing and a little more room between title lines. */
+html[lang="zh-CN"] body { font-family: Arial, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+html[lang="zh-CN"] :is(h1, h2, h3, .page-title) { letter-spacing: 0; line-height: 1.35; overflow-wrap: anywhere; text-wrap: balance; }
+html[lang="zh-CN"] :is(.eyebrow, .section-number, .demo-kicker, .demo-phase,
+  .demo-trace-label, .figure-kicker, .panel-number, .or-chart-kicker, th) { letter-spacing: .04em; }
+html[lang="zh-CN"] .hero-intro { line-height: 1.7; }
+
+@media (max-width: 980px) {
+  html { scroll-padding-top: 135px; }
+  header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    height: auto;
+    min-height: 112px;
+    padding: 12px 24px 16px;
+    gap: 14px 18px;
+  }
+  header .brand { width: auto; grid-column: 1; grid-row: 1; font-size: 19px; }
+  header .header-controls { grid-column: 2; grid-row: 1; }
+  header nav { grid-column: 1 / -1; grid-row: 2; width: 100%; margin: 0; justify-content: space-between; gap: 12px; }
+  header nav a:nth-child(2) { display: inline; }
+}
+@media (max-width: 600px) {
+  header { padding: 10px 20px 15px; column-gap: 12px; }
+  header nav { gap: 8px; font-size: 12px; }
+  .theme-toggle { width: 44px; padding: 10px; }
+  .theme-toggle .theme-label { display: none; }
+  .language-toggle { padding: 9px 10px; }
+  .header-controls { gap: 6px; }
+  .contribute-callout { display: block; padding: 22px; }
+  .contribute-callout h2 { font-size: 23px; }
+  .contribute-link { margin-top: 18px; }
+  html[lang="zh-CN"] h1 { font-size: 36px; }
+  html[lang="zh-CN"] h1.page-title { font-size: 28px; }
+}
+@media (max-width: 360px) {
+  header { padding-left: 16px; padding-right: 16px; }
+  header .brand { font-size: 17px; gap: 7px; }
+  header nav { gap: 6px; font-size: 11px; }
+}
+@media print {
+  .header-controls { display: none; }
+}
