@@ -1039,3 +1039,54 @@ window.OR_LICENSE_ZH = {
   "Help expand OR-License with a real-world operations research task.": "提交真实的运筹优化任务，一起扩展 OR-License。",
   "Read the contribution guide": "查看贡献指南"
 };
+
+/* Updated paper Figures 6–7. */
+Object.assign(window.OR_LICENSE_ZH, {
+  "Solution-technique adoption": "求解技术采用情况",
+  "Objective handling & structure exploitation": "目标处理与问题结构利用",
+  "11 models + Expert · 31 tasks": "11 个模型 + 专家 · 31 个任务",
+  "Same model order · 31 tasks": "相同模型顺序 · 31 个任务",
+  "Specialized methods": "专用方法",
+  "Greedy / rules": "贪心 / 规则",
+  "Metaheuristic search": "元启发式搜索",
+  "Explicit enumeration": "显式枚举",
+  "Branch search": "分支搜索",
+  "Business objective": "业务目标",
+  "Surrogate objective": "替代目标",
+  "Compact reformulation": "紧凑重构",
+  "Problem decomposition": "问题分解",
+  "Structural algorithm": "结构算法",
+  "Search reduction": "搜索缩减",
+  "(a) Objective handling": "(a) 目标处理",
+  "(b) Problem-structure exploitation": "(b) 问题结构利用",
+  "Labels may coexist; row percentages need not sum to 100%.": "标签可同时出现；每行百分比之和不必为 100%。",
+  "mutually exclusive; each row sums to 100%.": "相互排斥；每行百分比之和为 100%。",
+  "labels may coexist.": "标签可同时出现。",
+  "Each cell reports adoption across 31 tasks, using one selected solution scheme per model–task pair.": "每个单元格表示在 31 个任务中的采用比例，每个模型–任务对选取一个求解方案。",
+  "Both panels use a 0–100% color scale. Each cell reports adoption across 31 tasks, using one selected solution scheme per model–task pair.": "两个面板均使用 0–100% 色标。每个单元格表示在 31 个任务中的采用比例，每个模型–任务对选取一个求解方案。",
+  "Adoption rates across 31 tasks; percentages shown to one decimal place.": "31 个任务中的采用比例；百分比保留一位小数。",
+  "Figure 6 solution-technique adoption. Scroll horizontally on smaller screens.": "图 6 求解技术采用情况。小屏幕可横向滚动查看。",
+  "Figure 7 objective handling and problem-structure exploitation. Both panels use aligned model rows. Scroll horizontally on smaller screens.": "图 7 目标处理与问题结构利用。两个面板中的模型行对齐。小屏幕可横向滚动查看。",
+  "Solution-technique adoption across 31 tasks": "31 个任务中的求解技术采用情况",
+  "Objective handling and problem-structure exploitation across 31 tasks": "31 个任务中的目标处理与问题结构利用"
+});
+
+Object.assign(window.OR_LICENSE_ZH, {
+  "Paper · Figure 6": "论文 · 图 6",
+  "Paper · Figure 7": "论文 · 图 7",
+  "General solver": "通用求解器",
+  "Local search": "局部搜索",
+  "T1 General solver": "T1 通用求解器",
+  "T2 Specialized methods": "T2 专用方法",
+  "T3 Greedy / rules": "T3 贪心 / 规则",
+  "T4 Local search": "T4 局部搜索",
+  "T5 Metaheuristic search": "T5 元启发式搜索",
+  "T6 Explicit enumeration": "T6 显式枚举",
+  "T7 Branch search": "T7 分支搜索",
+  "O1 Business objective": "O1 业务目标",
+  "O2 Surrogate objective": "O2 替代目标",
+  "S1 Compact reformulation": "S1 紧凑重构",
+  "S2 Problem decomposition": "S2 问题分解",
+  "S3 Structural algorithm": "S3 结构算法",
+  "S4 Search reduction": "S4 搜索缩减"
+});

@@ -1,0 +1,31 @@
+/* Adoption heatmaps: Figure 7 shares one row grid across both panels. */
+.strategy-figure .strategy-heading{display:flex;justify-content:space-between;align-items:center;gap:24px}
+.strategy-figure .strategy-meta{font-size:12px;color:var(--muted);text-align:right;flex:none}
+.or-chart .strategy-heatmap{border-collapse:separate;border-spacing:3px;width:100%;min-width:900px;table-layout:fixed;font-size:14px}
+.or-chart .strategy-heatmap th,.or-chart .strategy-heatmap td{padding:7px 5px;border:0;text-align:center;white-space:normal;line-height:1.35;letter-spacing:0;text-transform:none}
+.or-chart .strategy-heatmap thead th{height:90px;background:transparent;color:var(--ink);font-size:13px;vertical-align:middle}
+.or-chart .strategy-heatmap thead b{display:block;font-size:14px;margin-bottom:5px}
+.or-chart .strategy-heatmap thead span{display:block;overflow-wrap:anywhere}
+.or-chart .strategy-heatmap tbody th{height:40px;padding-right:10px;background:transparent;color:var(--ink);font-size:13px;text-align:right;white-space:nowrap;font-weight:400}
+.or-chart .strategy-heatmap tbody td{height:40px;color:#13241d;font-weight:400;font-variant-numeric:tabular-nums}
+.strategy-heatmap .strategy-model-col{width:180px}
+.or-chart .strategy-combined{min-width:940px}
+.strategy-combined .strategy-model-col{width:176px}
+.strategy-combined .strategy-gap-col{width:24px}
+.or-chart .strategy-heatmap .strategy-gap{padding:0;background:transparent}
+.or-chart .strategy-heatmap .strategy-panel-head th{height:36px;font-size:14px;font-weight:650;text-align:center}
+.or-chart .strategy-heatmap .strategy-panel-head .strategy-o-title{color:var(--strategy-o-title,#67518f)}
+.or-chart .strategy-heatmap .strategy-panel-head .strategy-s-title{color:var(--strategy-s-title,#427368)}
+.or-chart .strategy-heatmap .strategy-expert th,.or-chart .strategy-heatmap .strategy-expert td:not(.strategy-gap){border-top:2px solid var(--ink);font-weight:700;height:45px}
+.strategy-footnotes{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-top:16px}
+.strategy-footnotes .or-chart-note{margin:0}
+.strategy-legends{display:flex;gap:20px;flex-wrap:wrap;flex:none}
+.strategy-legend{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:12px;white-space:nowrap}
+.strategy-ramp{display:inline-block;width:92px;height:10px;background:linear-gradient(90deg,#f1eae3,#ca7555)}
+.strategy-ramp-purple{background:linear-gradient(90deg,#efedf7,#7760a6)}
+.strategy-ramp-teal{background:linear-gradient(90deg,#e9f1ed,#4c887d)}
+.or-chart .strategy-values th{white-space:normal;text-transform:none;letter-spacing:0;color:var(--ink)}
+html[data-theme="dark"] .strategy-figure{--strategy-o-title:#c7b8e8;--strategy-s-title:#a6cec3}
+html[data-theme="dark"] .strategy-figure .strategy-values th{background:var(--soft)}
+@media(max-width:900px){.strategy-figure .strategy-heading{display:block}.strategy-figure .strategy-meta{text-align:left;margin-top:10px}.strategy-footnotes{align-items:flex-start;flex-direction:column;gap:12px}}
+@media(max-width:640px){.strategy-legends{gap:12px}.strategy-ramp{width:68px}}
