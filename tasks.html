@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39;; script-src &#39;self&#39; &#39;unsafe-inline&#39;; img-src &#39;self&#39; data:; font-src &#39;self&#39;; connect-src &#39;self&#39;; form-action &#39;none&#39;; base-uri &#39;self&#39;; object-src &#39;none&#39;">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#08100c" media="(prefers-color-scheme: dark)">
+<title>Tasks · OR-License</title>
+<meta name="description" content="Browse the 31 OR-License tasks by industry, problem type and required skills, with what each task checks and how it is scored.">
+<link rel="canonical" href="https://www.or-license.com/tasks.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OR-License">
+<meta property="og:title" content="Tasks · OR-License">
+<meta property="og:description" content="Browse the 31 OR-License tasks by industry, problem type and required skills, with what each task checks and how it is scored.">
+<meta property="og:url" content="https://www.or-license.com/tasks.html">
+<meta property="og:image" content="https://www.or-license.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="OR-License: evaluating LLM agents as real-world operations research practitioners">
+<meta name="twitter:card" content="summary_large_image">
+<script src="assets/theme.js?v=20261020"></script>
+<link rel="stylesheet" href="assets/site.css?v=20261020">
+<script src="assets/i18n-zh.js?v=20261020" defer></script>
+<script src="assets/i18n.js?v=20261020" defer></script>
+<script src="assets/site.js?v=20261020" defer></script>
+</head>
+<body data-page="tasks">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><rect width="32" height="32" rx="8" fill="#12704a"/><path d="M8 23.5 10.4 11l9.4-3.2 5.2 7.4-3.6 8.3z" fill="none" stroke="#ffffff" stroke-width="2.1" stroke-linejoin="round"/><path d="M10.6 21.2 21.4 9.6" stroke="#ffffff" stroke-opacity=".4" stroke-width="1.4" stroke-dasharray="2 2.4"/><circle cx="19.8" cy="7.8" r="3.2" fill="#d5f17a" stroke="#12704a" stroke-width="1.4"/></svg></span><span translate="no">OR-License</span></a>
+    <nav class="site-nav" aria-label="Main navigation">      <a href="index.html">Home</a>      <a href="leaderboard.html">Leaderboard</a>      <a href="tasks.html" aria-current="page">Tasks</a>      <a href="orsim.html">ORSim</a>      <a href="analysis.html">Analysis</a>    </nav>
+    <div class="header-actions">
+      <a class="icon-btn" href="https://github.com/NineAbyss/OR-License" title="GitHub repository" aria-label="GitHub repository"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg></a>
+      <div class="header-controls" translate="no">
+        <button class="icon-btn theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode"><svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.9 13.1A9 9 0 1 1 10.9 3.1a7 7 0 0 0 10 10z"/></svg><svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6 6 6M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg><span class="theme-label">Dark</span></button>
+        <button class="language-toggle" type="button" lang="zh-CN" aria-label="切换到中文版" title="切换到中文版">中文</button>
+      </div>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-head">
+  <div class="container">
+    <span class="pill">Task library</span>
+    <h1>31 real tasks, from client brief to delivery.</h1>
+    <p class="lead">See what each task asks for, which rules are checked, and how the result is scored. Click a task for its details and diagram.</p>
+  </div>
+</section>
+<div class="container">
+  <aside class="contribute-callout" aria-labelledby="contribute-title">
+    <div><h2 id="contribute-title">Have a real project to share?</h2><p>Help grow OR-License by contributing a real optimization task.</p></div>
+    <a class="btn" href="https://github.com/NineAbyss/OR-License/blob/main/CONTRIBUTING.md">Read the contribution guide <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3.5H3.5v9h9V10M9 3h4v4M13 3 7.5 8.5"/></svg></a>
+  </aside>
+  <div class="tasks-layout" data-tasks>
+    <nav class="filters" aria-label="Task filters">
+      <div class="filter-group">
+        <h2 id="f-industry">Industry</h2>
+        <ul class="filter-list" aria-labelledby="f-industry">
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="" aria-pressed="true"><span>All</span><span class="count" translate="no">31</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="bike-sharing" aria-pressed="false"><span>Bike sharing</span><span class="count" translate="no">8</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="food-processing" aria-pressed="false"><span>Food processing</span><span class="count" translate="no">5</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="supply-chain" aria-pressed="false"><span>Supply chain</span><span class="count" translate="no">4</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="asset-management" aria-pressed="false"><span>Asset management</span><span class="count" translate="no">3</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="semiconductor-testing" aria-pressed="false"><span>Semiconductor testing</span><span class="count" translate="no">2</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="alloy-smelting" aria-pressed="false"><span>Alloy smelting</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="coking" aria-pressed="false"><span>Coking</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="copper-smelting" aria-pressed="false"><span>Copper smelting</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="engineering-plastics" aria-pressed="false"><span>Engineering plastics</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="grocery-delivery" aria-pressed="false"><span>Grocery delivery</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="petroleum-refining" aria-pressed="false"><span>Petroleum refining</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="roll-converting" aria-pressed="false"><span>Roll converting</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="salt-production" aria-pressed="false"><span>Salt production</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="industry" data-value="warehousing" aria-pressed="false"><span>Warehousing</span><span class="count" translate="no">1</span></button></li>
+        </ul>
+      </div>
+      <div class="filter-group">
+        <h2 id="f-type">How decisions are made</h2>
+        <ul class="filter-list" aria-labelledby="f-type">
+          <li><button class="filter-btn" type="button" data-filter="type" data-value="" aria-pressed="true"><span>All</span><span class="count" translate="no">31</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="type" data-value="static" aria-pressed="false"><span>One-time plan</span><span class="count" translate="no">20</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="type" data-value="rolling" aria-pressed="false"><span>Rolling rounds</span><span class="count" translate="no">8</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="type" data-value="asof" aria-pressed="false"><span>Backtest, no future data</span><span class="count" translate="no">3</span></button></li>
+        </ul>
+      </div>
+      <div class="filter-group">
+        <h2 id="f-caps">Skills needed</h2>
+        <div class="filter-chips" role="group" aria-labelledby="f-caps">
+<button class="k-chip" type="button" data-filter="cap" data-value="K1" aria-pressed="false" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</button><button class="k-chip" type="button" data-filter="cap" data-value="K2" aria-pressed="false" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</button><button class="k-chip" type="button" data-filter="cap" data-value="K3" aria-pressed="false" title="Demand, risk or scenario parameters have to be estimated from data.">Estimate from data</button><button class="k-chip" type="button" data-filter="cap" data-value="K4" aria-pressed="false" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</button><button class="k-chip" type="button" data-filter="cap" data-value="K5" aria-pressed="false" title="The plan has to cope with several scenarios or uncertain inputs.">Uncertain inputs</button><button class="k-chip" type="button" data-filter="cap" data-value="K6" aria-pressed="false" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</button>        </div>
+        <p class="filter-help">Pick several to see only tasks that need all of them.</p>
+      </div>
+      <div class="filter-group">
+        <h2 id="f-class">Problem type</h2>
+        <ul class="filter-list" aria-labelledby="f-class">
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="" aria-pressed="true"><span>All</span><span class="count" translate="no">31</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="production-scheduling" aria-pressed="false"><span>Production scheduling</span><span class="count" translate="no">6</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="network-design" aria-pressed="false"><span>Network design</span><span class="count" translate="no">3</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="portfolio-optimization" aria-pressed="false"><span>Portfolio optimization</span><span class="count" translate="no">3</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="blending" aria-pressed="false"><span>Blending</span><span class="count" translate="no">2</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="inventory-rebalancing" aria-pressed="false"><span>Inventory rebalancing</span><span class="count" translate="no">2</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="resource-constrained-scheduling" aria-pressed="false"><span>Resource-constrained scheduling</span><span class="count" translate="no">2</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="batching" aria-pressed="false"><span>Batching</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="chance-constrained-optimization" aria-pressed="false"><span>Chance-constrained optimization</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="cutting-stock" aria-pressed="false"><span>Cutting stock</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="distributionally-robust-optimization" aria-pressed="false"><span>Distributionally robust optimization</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="dynamic-vehicle-routing" aria-pressed="false"><span>Dynamic vehicle routing</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="inventory-optimization" aria-pressed="false"><span>Inventory optimization</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="order-batching" aria-pressed="false"><span>Order batching</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="parallel-machine-scheduling" aria-pressed="false"><span>Parallel-machine scheduling</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="production-planning" aria-pressed="false"><span>Production planning</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="risk-averse-optimization" aria-pressed="false"><span>Risk-averse optimization</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="robust-optimization" aria-pressed="false"><span>Robust optimization</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="stochastic-optimization" aria-pressed="false"><span>Stochastic optimization</span><span class="count" translate="no">1</span></button></li>
+          <li><button class="filter-btn" type="button" data-filter="class" data-value="two-stage-stochastic-programming" aria-pressed="false"><span>Two-stage stochastic programming</span><span class="count" translate="no">1</span></button></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="tasks-main">
+      <div class="tasks-toolbar">
+        <div class="search-box" role="search">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6"/><path d="m10.5 10.5 3.2 3.2"/></svg>
+          <label class="visually-hidden" for="task-search">Find a task</label>
+          <input id="task-search" type="search" placeholder="Search tasks, constraints, objectives…" autocomplete="off" spellcheck="false">
+        </div>
+        <div class="segmented" role="group" aria-label="View">
+          <button type="button" data-view="list" aria-pressed="true" title="List view" aria-label="List view"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" focusable="false"><rect x="2.2" y="2.5" width="4" height="4" rx=".8"/><rect x="2.2" y="9.5" width="4" height="4" rx=".8"/><path d="M8.5 3.5h5.3M8.5 5.6h3.4M8.5 10.5h5.3M8.5 12.6h3.4"/></svg></button>
+          <button type="button" data-view="cards" aria-pressed="false" title="Card view" aria-label="Card view"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><rect x="2.2" y="2.2" width="4.8" height="4.8" rx="1"/><rect x="9" y="2.2" width="4.8" height="4.8" rx="1"/><rect x="2.2" y="9" width="4.8" height="4.8" rx="1"/><rect x="9" y="9" width="4.8" height="4.8" rx="1"/></svg></button>
+        </div>
+      </div>
+      <div class="tasks-status"><span id="task-count" aria-live="polite">31 of 31 tasks</span><button class="clear-btn" type="button" data-clear hidden>Clear filters</button></div>
+      <ol class="task-list" id="task-list">
+        <li class="task-card" id="task-1" data-id="1" data-industry="food-processing" data-class="production-scheduling" data-type="static" data-tags="K2 K4 K6" data-search="multi-pot braising schedule meet demand from two order batches without double-booking any pot or time slot. plans that tie on the main goal are compared on secondary rules. food processing production scheduling schedule one day of braising-pot production for seven products across two demand batches. the overall score is recalculated with the project’s scheduling goal. output format schedule format no resource or time clashes demand is met production scheduling parallel machines food processing k2 k4 k6 task 01 1_food1">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-01.svg" data-zoom data-open="1" tabindex="-1" aria-hidden="true"><img src="case-images/task-01.svg" data-src-zh="case-images/zh/task-01.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 01</span>
+              <h2 class="task-title"><a href="case-images/task-01.svg" data-open="1">Multi-pot braising schedule</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #3b6fd8 35%, var(--border));background:color-mix(in srgb, #3b6fd8 9%, var(--surface))">Food processing</span>
+                <span class="chip soft">Production scheduling</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Meet demand from two order batches without double-booking any pot or time slot. Plans that tie on the main goal are compared on secondary rules.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Output format</span><span>Schedule format</span><span>No resource or time clashes</span><span>Demand is met</span></div></div>
+              <div><h3>How it is scored</h3><p>The overall score is recalculated with the project’s scheduling goal.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-2" data-id="2" data-industry="food-processing" data-class="production-scheduling" data-type="static" data-tags="K1 K4" data-search="one-day food production in batches fit several production batches into one day within the limits on resources and rounds, while weighing efficiency against order priority. food processing production scheduling schedule one day of multi-product stew-pot production with brine-state carry-over. scored on production efficiency and priorities. batch schedule format resource limits demand and round limits production scheduling parallel machines food processing k1 k4 task 02 2_food2">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-02.svg" data-zoom data-open="2" tabindex="-1" aria-hidden="true"><img src="case-images/task-02.svg" data-src-zh="case-images/zh/task-02.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 02</span>
+              <h2 class="task-title"><a href="case-images/task-02.svg" data-open="2">One-day food production in batches</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #3b6fd8 35%, var(--border));background:color-mix(in srgb, #3b6fd8 9%, var(--surface))">Food processing</span>
+                <span class="chip soft">Production scheduling</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Fit several production batches into one day within the limits on resources and rounds, while weighing efficiency against order priority.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Batch schedule format</span><span>Resource limits</span><span>Demand and round limits</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on production efficiency and priorities.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-3" data-id="3" data-industry="food-processing" data-class="production-scheduling" data-type="static" data-tags="K1 K4" data-search="repeated batches of one product run batch after batch of a single product in the right process order, replace the braising liquid when it wears out, and finish as early as possible. food processing production scheduling schedule single-product stew-pot batches with brine replacement to minimize the latest completion time. scored on completion time. batches process order liquid replaced on time demand is met production scheduling parallel machines food processing k1 k4 task 03 3_food3">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-03.svg" data-zoom data-open="3" tabindex="-1" aria-hidden="true"><img src="case-images/task-03.svg" data-src-zh="case-images/zh/task-03.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 03</span>
+              <h2 class="task-title"><a href="case-images/task-03.svg" data-open="3">Repeated batches of one product</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #3b6fd8 35%, var(--border));background:color-mix(in srgb, #3b6fd8 9%, var(--surface))">Food processing</span>
+                <span class="chip soft">Production scheduling</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Run batch after batch of a single product in the right process order, replace the braising liquid when it wears out, and finish as early as possible.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Batches</span><span>Process order</span><span>Liquid replaced on time</span><span>Demand is met</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on completion time.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-4" data-id="4" data-industry="food-processing" data-class="production-scheduling" data-type="static" data-tags="K2 K4 K6" data-search="five food products over a longer period sequence five products across the pots, where each product depends on what ran before and on the state of the liquid. finish on time while respecting soft preferences. food processing production scheduling schedule five products across stew pots with brine and product-sequence dependencies. scored on completion times, job order and soft preferences. every product scheduled changeovers product order timing rules production scheduling parallel machines food processing k2 k4 k6 task 04 4_food4">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-04.svg" data-zoom data-open="4" tabindex="-1" aria-hidden="true"><img src="case-images/task-04.svg" data-src-zh="case-images/zh/task-04.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 04</span>
+              <h2 class="task-title"><a href="case-images/task-04.svg" data-open="4">Five food products over a longer period</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #3b6fd8 35%, var(--border));background:color-mix(in srgb, #3b6fd8 9%, var(--surface))">Food processing</span>
+                <span class="chip soft">Production scheduling</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Sequence five products across the pots, where each product depends on what ran before and on the state of the liquid. Finish on time while respecting soft preferences.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Every product scheduled</span><span>Changeovers</span><span>Product order</span><span>Timing rules</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on completion times, job order and soft preferences.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-5" data-id="5" data-industry="food-processing" data-class="production-scheduling" data-type="static" data-tags="K1 K4" data-search="batches linked by shared braising liquid braising liquid passes from one batch to the next, so the batches must run in an order that keeps that flow unbroken while meeting demand. food processing production scheduling assign and sequence multi-variety production across heterogeneous stew-pot types. scored on production timing. liquid flow between batches what must come first flow never breaks demand is met production scheduling parallel machines food processing k1 k4 task 05 5_food5">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-05.svg" data-zoom data-open="5" tabindex="-1" aria-hidden="true"><img src="case-images/task-05.svg" data-src-zh="case-images/zh/task-05.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 05</span>
+              <h2 class="task-title"><a href="case-images/task-05.svg" data-open="5">Batches linked by shared braising liquid</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #3b6fd8 35%, var(--border));background:color-mix(in srgb, #3b6fd8 9%, var(--surface))">Food processing</span>
+                <span class="chip soft">Production scheduling</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Braising liquid passes from one batch to the next, so the batches must run in an order that keeps that flow unbroken while meeting demand.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Liquid flow between batches</span><span>What must come first</span><span>Flow never breaks</span><span>Demand is met</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on production timing.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-6" data-id="6" data-industry="semiconductor-testing" data-class="resource-constrained-scheduling" data-type="static" data-tags="K2 K4" data-search="40-day chip burn-in schedule assign chip burn-in tests to compatible boards, machines and areas over 40 days, within capacity, timing and process rules. semiconductor testing resource-constrained scheduling schedule integrated-circuit burn-in tests onto compatible boards, equipment and areas over 40 days. scored on scheduling efficiency and workload pressure, as the project defines them. output format resource assignment capacity limits timing process rules burn-in scheduling resource-constrained scheduling semiconductor k2 k4 task 06 6_ic_board">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-06.svg" data-zoom data-open="6" tabindex="-1" aria-hidden="true"><img src="case-images/task-06.svg" data-src-zh="case-images/zh/task-06.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 06</span>
+              <h2 class="task-title"><a href="case-images/task-06.svg" data-open="6">40-day chip burn-in schedule</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #0e7490 35%, var(--border));background:color-mix(in srgb, #0e7490 9%, var(--surface))">Semiconductor testing</span>
+                <span class="chip soft">Resource-constrained scheduling</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Assign chip burn-in tests to compatible boards, machines and areas over 40 days, within capacity, timing and process rules.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Output format</span><span>Resource assignment</span><span>Capacity limits</span><span>Timing</span><span>Process rules</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on scheduling efficiency and workload pressure, as the project defines them.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-7" data-id="7" data-industry="semiconductor-testing" data-class="resource-constrained-scheduling" data-type="static" data-tags="K2 K4" data-search="daily chip burn-in schedule build a day-by-day loading plan for chip burn-in tests over 28 days, reusing boards and machines within capacity, timing and process rules. semiconductor testing resource-constrained scheduling build a 28-day loading plan for integrated-circuit burn-in tasks with reusable resources. scored on scheduling efficiency and workload pressure, as the project defines them. output format resource assignment capacity limits timing process rules burn-in scheduling resource-constrained scheduling semiconductor k2 k4 task 07 7_ic_test">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-07.svg" data-zoom data-open="7" tabindex="-1" aria-hidden="true"><img src="case-images/task-07.svg" data-src-zh="case-images/zh/task-07.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 07</span>
+              <h2 class="task-title"><a href="case-images/task-07.svg" data-open="7">Daily chip burn-in schedule</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #0e7490 35%, var(--border));background:color-mix(in srgb, #0e7490 9%, var(--surface))">Semiconductor testing</span>
+                <span class="chip soft">Resource-constrained scheduling</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Build a day-by-day loading plan for chip burn-in tests over 28 days, reusing boards and machines within capacity, timing and process rules.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Output format</span><span>Resource assignment</span><span>Capacity limits</span><span>Timing</span><span>Process rules</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on scheduling efficiency and workload pressure, as the project defines them.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-8" data-id="8" data-industry="salt-production" data-class="production-scheduling" data-type="static" data-tags="K2 K4" data-search="salt drying and packaging schedule plan drying and packaging for orders with due dates, rush orders and changeovers. the plan is replayed step by step to check that resources and stock always add up. salt production production scheduling plan sea-salt drying and packaging production for orders with due dates, rush orders and changeovers. scored on backlog and service level. production records replayed step by step resources and stock add up each step picks up where the last ended production scheduling due dates changeovers k2 k4 task 08 8_salt">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-08.svg" data-zoom data-open="8" tabindex="-1" aria-hidden="true"><img src="case-images/task-08.svg" data-src-zh="case-images/zh/task-08.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 08</span>
+              <h2 class="task-title"><a href="case-images/task-08.svg" data-open="8">Salt drying and packaging schedule</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #dc2626 35%, var(--border));background:color-mix(in srgb, #dc2626 9%, var(--surface))">Salt production</span>
+                <span class="chip soft">Production scheduling</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Plan drying and packaging for orders with due dates, rush orders and changeovers. The plan is replayed step by step to check that resources and stock always add up.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Production records replayed step by step</span><span>Resources and stock add up</span><span>Each step picks up where the last ended</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on backlog and service level.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-9" data-id="9" data-industry="roll-converting" data-class="cutting-stock" data-type="static" data-tags="K1" data-search="cutting large rolls to fill orders decide which parent rolls and bought-in rolls to cut, and how, so that customer orders are covered and all material is accounted for. roll converting cutting stock allocate parent rolls and outsourced rolls to slitting patterns that cover customer orders. scored on material use and allocation. allocation format right material for each order demand is met all material accounted for cutting stock slitting material allocation k1 task 09 9_slitting">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-09.svg" data-zoom data-open="9" tabindex="-1" aria-hidden="true"><img src="case-images/task-09.svg" data-src-zh="case-images/zh/task-09.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 09</span>
+              <h2 class="task-title"><a href="case-images/task-09.svg" data-open="9">Cutting large rolls to fill orders</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #a16207 35%, var(--border));background:color-mix(in srgb, #a16207 9%, var(--surface))">Roll converting</span>
+                <span class="chip soft">Cutting stock</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span>              </div>
+              <p class="task-summary">Decide which parent rolls and bought-in rolls to cut, and how, so that customer orders are covered and all material is accounted for.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Allocation format</span><span>Right material for each order</span><span>Demand is met</span><span>All material accounted for</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on material use and allocation.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-10" data-id="10" data-industry="coking" data-class="blending" data-type="static" data-tags="K1" data-search="fixed-ratio coal blending choose a coal blend for coking that stays within stock, price and quality limits. coking blending plan coal blending for coking production under inventory, price and quality limits. scored on cost, return or quality, as the project specifies. blend format limits on each material stock on hand quality limits blending linear programming coking k1 task 10 10_coke">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-10.svg" data-zoom data-open="10" tabindex="-1" aria-hidden="true"><img src="case-images/task-10.svg" data-src-zh="case-images/zh/task-10.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 10</span>
+              <h2 class="task-title"><a href="case-images/task-10.svg" data-open="10">Fixed-ratio coal blending</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #be185d 35%, var(--border));background:color-mix(in srgb, #be185d 9%, var(--surface))">Coking</span>
+                <span class="chip soft">Blending</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span>              </div>
+              <p class="task-summary">Choose a coal blend for coking that stays within stock, price and quality limits.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Blend format</span><span>Limits on each material</span><span>Stock on hand</span><span>Quality limits</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on cost, return or quality, as the project specifies.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-11" data-id="11" data-industry="copper-smelting" data-class="blending" data-type="static" data-tags="K1" data-search="copper-concentrate blending prepare the copper-concentrate batching list for a flash furnace, keeping the mix within composition and stock limits. copper smelting blending prepare a copper-concentrate batching list for a flash furnace under composition and inventory limits. scored on cost, return or quality, as the project specifies. blend format limits on each material stock on hand quality limits blending batching smelting k1 task 11 11_copper">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-11.svg" data-zoom data-open="11" tabindex="-1" aria-hidden="true"><img src="case-images/task-11.svg" data-src-zh="case-images/zh/task-11.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 11</span>
+              <h2 class="task-title"><a href="case-images/task-11.svg" data-open="11">Copper-concentrate blending</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #4d7c0f 35%, var(--border));background:color-mix(in srgb, #4d7c0f 9%, var(--surface))">Copper smelting</span>
+                <span class="chip soft">Blending</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span>              </div>
+              <p class="task-summary">Prepare the copper-concentrate batching list for a flash furnace, keeping the mix within composition and stock limits.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Blend format</span><span>Limits on each material</span><span>Stock on hand</span><span>Quality limits</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on cost, return or quality, as the project specifies.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-12" data-id="12" data-industry="alloy-smelting" data-class="batching" data-type="static" data-tags="K1 K6" data-search="grouping alloy blocks into smelting batches divide alloy blocks into smelting batches that meet composition limits and list any blocks left out. plans are compared on leftovers first, then on a secondary rule. alloy smelting batching divide alloy material blocks into smelting batches that meet composition limits. scored on leftover material first, then on a secondary ordering rule. grouping rules rules within each batch leftover blocks listed batching bin packing smelting k1 k6 task 12 12_batching">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-12.svg" data-zoom data-open="12" tabindex="-1" aria-hidden="true"><img src="case-images/task-12.svg" data-src-zh="case-images/zh/task-12.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 12</span>
+              <h2 class="task-title"><a href="case-images/task-12.svg" data-open="12">Grouping alloy blocks into smelting batches</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #b45309 35%, var(--border));background:color-mix(in srgb, #b45309 9%, var(--surface))">Alloy smelting</span>
+                <span class="chip soft">Batching</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Divide alloy blocks into smelting batches that meet composition limits and list any blocks left out. Plans are compared on leftovers first, then on a secondary rule.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Grouping rules</span><span>Rules within each batch</span><span>Leftover blocks listed</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on leftover material first, then on a secondary ordering rule.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-13" data-id="13" data-industry="supply-chain" data-class="inventory-optimization" data-type="static" data-tags="K2 K3 K4 K5 K6" data-search="inventory policy for an existing network use past data to set finished-goods stock levels for a fixed network of factories and warehouses, using only the data available at each decision date. supply chain inventory optimization choose an inventory policy for a fixed network of factories, central warehouses and regional warehouses. scored on historical data against several goals, as the project specifies. policy in the required form allowed parameter values service records no use of future data inventory policy multi-echelon supply chain k2 k3 k4 k5 k6 task 13 13_inventory">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-13.svg" data-zoom data-open="13" tabindex="-1" aria-hidden="true"><img src="case-images/task-13.svg" data-src-zh="case-images/zh/task-13.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 13</span>
+              <h2 class="task-title"><a href="case-images/task-13.svg" data-open="13">Inventory policy for an existing network</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #c2410c 35%, var(--border));background:color-mix(in srgb, #c2410c 9%, var(--surface))">Supply chain</span>
+                <span class="chip soft">Inventory optimization</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Demand, risk or scenario parameters have to be estimated from data.">Estimate from data</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="The plan has to cope with several scenarios or uncertain inputs.">Uncertain inputs</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Use past data to set finished-goods stock levels for a fixed network of factories and warehouses, using only the data available at each decision date.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Policy in the required form</span><span>Allowed parameter values</span><span>Service records</span><span>No use of future data</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on historical data against several goals, as the project specifies.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-14" data-id="14" data-industry="supply-chain" data-class="network-design" data-type="static" data-tags="K1 K2 K4" data-search="four-tier supply network plan how goods flow from suppliers through factories and warehouses to regional warehouses, within capacity and while meeting demand and service targets. supply chain network design optimize a four-tier network of suppliers, factories, warehouses and regional warehouses. cost and service are recalculated with the project’s accounting rules. valid network links valid routes flows balance capacity limits demand is met service targets network design facility location supply chain k1 k2 k4 task 14 14_network_tiered">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-14.svg" data-zoom data-open="14" tabindex="-1" aria-hidden="true"><img src="case-images/task-14.svg" data-src-zh="case-images/zh/task-14.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 14</span>
+              <h2 class="task-title"><a href="case-images/task-14.svg" data-open="14">Four-tier supply network</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #c2410c 35%, var(--border));background:color-mix(in srgb, #c2410c 9%, var(--surface))">Supply chain</span>
+                <span class="chip soft">Network design</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span><span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Plan how goods flow from suppliers through factories and warehouses to regional warehouses, within capacity and while meeting demand and service targets.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Valid network links</span><span>Valid routes</span><span>Flows balance</span><span>Capacity limits</span><span>Demand is met</span><span>Service targets</span></div></div>
+              <div><h3>How it is scored</h3><p>Cost and service are recalculated with the project’s accounting rules.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-15" data-id="15" data-industry="supply-chain" data-class="network-design" data-type="static" data-tags="K1 K2 K4" data-search="supply network with direct shipping like a regular supply network, except that customers can also be supplied directly. flows must balance, stay within capacity and meet demand and service targets. supply chain network design optimize a supply-chain network in which factories supply regional warehouses and customers can also be supplied directly. cost and service are recalculated with the project’s accounting rules. valid network links valid routes flows balance capacity limits demand is met service targets network design facility location supply chain k1 k2 k4 task 15 15_network_direct">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-15.svg" data-zoom data-open="15" tabindex="-1" aria-hidden="true"><img src="case-images/task-15.svg" data-src-zh="case-images/zh/task-15.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 15</span>
+              <h2 class="task-title"><a href="case-images/task-15.svg" data-open="15">Supply network with direct shipping</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #c2410c 35%, var(--border));background:color-mix(in srgb, #c2410c 9%, var(--surface))">Supply chain</span>
+                <span class="chip soft">Network design</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span><span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Like a regular supply network, except that customers can also be supplied directly. Flows must balance, stay within capacity and meet demand and service targets.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Valid network links</span><span>Valid routes</span><span>Flows balance</span><span>Capacity limits</span><span>Demand is met</span><span>Service targets</span></div></div>
+              <div><h3>How it is scored</h3><p>Cost and service are recalculated with the project’s accounting rules.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-16" data-id="16" data-industry="supply-chain" data-class="network-design" data-type="static" data-tags="K1 K2 K4" data-search="supply network with shared central storage plan a supply network whose central warehouses store several product categories together, within capacity and while meeting demand and service targets. supply chain network design optimize a supply-chain network with hybrid central-warehouse storage. cost and service are recalculated with the project’s accounting rules. valid network links valid routes flows balance capacity limits demand is met service targets network design facility location supply chain k1 k2 k4 task 16 16_network_mixed">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-16.svg" data-zoom data-open="16" tabindex="-1" aria-hidden="true"><img src="case-images/task-16.svg" data-src-zh="case-images/zh/task-16.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 16</span>
+              <h2 class="task-title"><a href="case-images/task-16.svg" data-open="16">Supply network with shared central storage</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #c2410c 35%, var(--border));background:color-mix(in srgb, #c2410c 9%, var(--surface))">Supply chain</span>
+                <span class="chip soft">Network design</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span><span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Plan a supply network whose central warehouses store several product categories together, within capacity and while meeting demand and service targets.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Valid network links</span><span>Valid routes</span><span>Flows balance</span><span>Capacity limits</span><span>Demand is met</span><span>Service targets</span></div></div>
+              <div><h3>How it is scored</h3><p>Cost and service are recalculated with the project’s accounting rules.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-17" data-id="17" data-industry="petroleum-refining" data-class="production-planning" data-type="static" data-tags="K1" data-search="one month of refinery production and sales plan a month of refinery processing and sales for the highest gross profit. every input must be accounted for, and products made together must come out in the right proportions. petroleum refining production planning plan one month of refinery processing to maximize gross profit under material balances. revenue and cost are recalculated with the project’s accounting rules. allowed values all material accounted for processing recipes joint-product proportions refinery planning linear programming production planning k1 task 17 17_petroleum">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-17.svg" data-zoom data-open="17" tabindex="-1" aria-hidden="true"><img src="case-images/task-17.svg" data-src-zh="case-images/zh/task-17.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 17</span>
+              <h2 class="task-title"><a href="case-images/task-17.svg" data-open="17">One month of refinery production and sales</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #0f766e 35%, var(--border));background:color-mix(in srgb, #0f766e 9%, var(--surface))">Petroleum refining</span>
+                <span class="chip soft">Production planning</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span>              </div>
+              <p class="task-summary">Plan a month of refinery processing and sales for the highest gross profit. Every input must be accounted for, and products made together must come out in the right proportions.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Allowed values</span><span>All material accounted for</span><span>Processing recipes</span><span>Joint-product proportions</span></div></div>
+              <div><h3>How it is scored</h3><p>Revenue and cost are recalculated with the project’s accounting rules.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-18" data-id="18" data-industry="engineering-plastics" data-class="parallel-machine-scheduling" data-type="static" data-tags="K1 K4 K6" data-search="order sequencing on seven plastics lines assign engineering-plastics orders to seven production lines and put them in order, respecting line capacity and product compatibility, with as few late orders and changeovers as possible. engineering plastics parallel-machine scheduling assign and sequence engineering-plastics orders on parallel production lines. scored on late jobs and product changeovers. every order assigned line capacity product compatibility timing rules parallel-machine scheduling tardiness sequencing k1 k4 k6 task 18 18_plastic">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-18.svg" data-zoom data-open="18" tabindex="-1" aria-hidden="true"><img src="case-images/task-18.svg" data-src-zh="case-images/zh/task-18.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 18</span>
+              <h2 class="task-title"><a href="case-images/task-18.svg" data-open="18">Order sequencing on seven plastics lines</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #1d4ed8 35%, var(--border));background:color-mix(in srgb, #1d4ed8 9%, var(--surface))">Engineering plastics</span>
+                <span class="chip soft">Parallel-machine scheduling</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Assign engineering-plastics orders to seven production lines and put them in order, respecting line capacity and product compatibility, with as few late orders and changeovers as possible.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Every order assigned</span><span>Line capacity</span><span>Product compatibility</span><span>Timing rules</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on late jobs and product changeovers.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-19" data-id="19" data-industry="warehousing" data-class="order-batching" data-type="static" data-tags="K1 K2" data-search="picking waves for a warehouse group outbound orders into picking waves so that every order is in exactly one wave and no wave is over capacity. warehousing order batching batch loose-pick outbound orders into picking waves for a warehouse. scored on the quality of the picking waves. wave format every order covered no order counted twice capacity limits order batching warehousing clustering k1 k2 task 19 19_wave">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-19.svg" data-zoom data-open="19" tabindex="-1" aria-hidden="true"><img src="case-images/task-19.svg" data-src-zh="case-images/zh/task-19.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 19</span>
+              <h2 class="task-title"><a href="case-images/task-19.svg" data-open="19">Picking waves for a warehouse</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #475569 35%, var(--border));background:color-mix(in srgb, #475569 9%, var(--surface))">Warehousing</span>
+                <span class="chip soft">Order batching</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span><span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span>              </div>
+              <p class="task-summary">Group outbound orders into picking waves so that every order is in exactly one wave and no wave is over capacity.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Wave format</span><span>Every order covered</span><span>No order counted twice</span><span>Capacity limits</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on the quality of the picking waves.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-20" data-id="20" data-industry="asset-management" data-class="portfolio-optimization" data-type="asof" data-tags="K2 K3 K4" data-search="long-only index-enhancement strategy write a stock strategy that aims to beat the csi 2000 index using only the information available on each date. its trades are run through a fixed backtest. asset management portfolio optimization run a csi 2000 enhanced-index portfolio through a date-restricted backtest. the resulting trades are run through a fixed backtest to recalculate performance. strategy in the required form code runs trading rules in the backtest portfolio optimization index enhancement backtesting k2 k3 k4 task 20 20_enhanced_index_asof">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-20.svg" data-zoom data-open="20" tabindex="-1" aria-hidden="true"><img src="case-images/task-20.svg" data-src-zh="case-images/zh/task-20.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 20</span>
+              <h2 class="task-title"><a href="case-images/task-20.svg" data-open="20">Long-only index-enhancement strategy</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #7c3aed 35%, var(--border));background:color-mix(in srgb, #7c3aed 9%, var(--surface))">Asset management</span>
+                <span class="chip soft">Portfolio optimization</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Demand, risk or scenario parameters have to be estimated from data.">Estimate from data</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Write a stock strategy that aims to beat the CSI 2000 index using only the information available on each date. Its trades are run through a fixed backtest.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Strategy in the required form</span><span>Code runs</span><span>Trading rules in the backtest</span></div></div>
+              <div><h3>How it is scored</h3><p>The resulting trades are run through a fixed backtest to recalculate performance.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-21" data-id="21" data-industry="asset-management" data-class="portfolio-optimization" data-type="asof" data-tags="K2 K3 K4" data-search="market-neutral long–short strategy write a strategy that buys some stocks and sells others short so that market moves cancel out, within the trading rules. its trades are run through a fixed backtest. asset management portfolio optimization run a market-neutral long-short stock portfolio through a date-restricted backtest. the resulting trades are run through a fixed backtest to recalculate performance. strategy in the required form code runs trading rules in the backtest portfolio optimization long-short backtesting k2 k3 k4 task 21 21_longshort">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-21.svg" data-zoom data-open="21" tabindex="-1" aria-hidden="true"><img src="case-images/task-21.svg" data-src-zh="case-images/zh/task-21.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 21</span>
+              <h2 class="task-title"><a href="case-images/task-21.svg" data-open="21">Market-neutral long–short strategy</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #7c3aed 35%, var(--border));background:color-mix(in srgb, #7c3aed 9%, var(--surface))">Asset management</span>
+                <span class="chip soft">Portfolio optimization</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Demand, risk or scenario parameters have to be estimated from data.">Estimate from data</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Write a strategy that buys some stocks and sells others short so that market moves cancel out, within the trading rules. Its trades are run through a fixed backtest.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Strategy in the required form</span><span>Code runs</span><span>Trading rules in the backtest</span></div></div>
+              <div><h3>How it is scored</h3><p>The resulting trades are run through a fixed backtest to recalculate performance.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-22" data-id="22" data-industry="asset-management" data-class="portfolio-optimization" data-type="asof" data-tags="K2 K3 K4" data-search="stock portfolio hedged with index futures write a strategy that holds csi 500 stocks and hedges market risk with ic index futures. its trades are run through a fixed backtest. asset management portfolio optimization run a csi 500 long-only portfolio hedged with ic futures through a date-restricted backtest. the resulting trades are run through a fixed backtest to recalculate performance. strategy in the required form code runs trading rules in the backtest portfolio optimization futures hedging backtesting k2 k3 k4 task 22 22_sif">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-22.svg" data-zoom data-open="22" tabindex="-1" aria-hidden="true"><img src="case-images/task-22.svg" data-src-zh="case-images/zh/task-22.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 22</span>
+              <h2 class="task-title"><a href="case-images/task-22.svg" data-open="22">Stock portfolio hedged with index futures</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #7c3aed 35%, var(--border));background:color-mix(in srgb, #7c3aed 9%, var(--surface))">Asset management</span>
+                <span class="chip soft">Portfolio optimization</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Demand, risk or scenario parameters have to be estimated from data.">Estimate from data</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span>              </div>
+              <p class="task-summary">Write a strategy that holds CSI 500 stocks and hedges market risk with IC index futures. Its trades are run through a fixed backtest.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Strategy in the required form</span><span>Code runs</span><span>Trading rules in the backtest</span></div></div>
+              <div><h3>How it is scored</h3><p>The resulting trades are run through a fixed backtest to recalculate performance.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-23" data-id="23" data-industry="grocery-delivery" data-class="dynamic-vehicle-routing" data-type="rolling" data-tags="K2 K4 K5" data-search="three days of grocery delivery send out vehicles for grocery orders batch by batch as they are confirmed over three days. dispatches cannot be undone, routes must respect vehicle capacity, and each day’s orders must all go out. grocery delivery dynamic vehicle routing dispatch vehicles for fresh-grocery orders released in rolling confirmation batches. scored on delivery performance. dispatch in batches every order covered valid routes capacity limits service targets vehicle routing dynamic time windows k2 k4 k5 task 23 23_dynamic_grocery">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-23.svg" data-zoom data-open="23" tabindex="-1" aria-hidden="true"><img src="case-images/task-23.svg" data-src-zh="case-images/zh/task-23.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 23</span>
+              <h2 class="task-title"><a href="case-images/task-23.svg" data-open="23">Three days of grocery delivery</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #9333ea 35%, var(--border));background:color-mix(in srgb, #9333ea 9%, var(--surface))">Grocery delivery</span>
+                <span class="chip soft">Dynamic vehicle routing</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="The plan has to cope with several scenarios or uncertain inputs.">Uncertain inputs</span>              </div>
+              <p class="task-summary">Send out vehicles for grocery orders batch by batch as they are confirmed over three days. Dispatches cannot be undone, routes must respect vehicle capacity, and each day’s orders must all go out.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Dispatch in batches</span><span>Every order covered</span><span>Valid routes</span><span>Capacity limits</span><span>Service targets</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored on delivery performance.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-24" data-id="24" data-industry="bike-sharing" data-class="inventory-rebalancing" data-type="rolling" data-tags="K2 K4 K6" data-search="hour-by-hour bike rebalancing move shared bikes between stations one hour at a time over four hours, as new trip data arrives. each hour has to start from where the last one left off. bike sharing inventory rebalancing rebalance shared bikes hour by hour from progressively revealed trips and inventory. the executed plan is replayed and scored on service cost. plan format routes and stock add up each step picks up where the last ended rebalancing rolling horizon bike sharing k2 k4 k6 task 24 24_sharedbike_e2e">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-24.svg" data-zoom data-open="24" tabindex="-1" aria-hidden="true"><img src="case-images/task-24.svg" data-src-zh="case-images/zh/task-24.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 24</span>
+              <h2 class="task-title"><a href="case-images/task-24.svg" data-open="24">Hour-by-hour bike rebalancing</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #12704a 35%, var(--border));background:color-mix(in srgb, #12704a 9%, var(--surface))">Bike sharing</span>
+                <span class="chip soft">Inventory rebalancing</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Move shared bikes between stations one hour at a time over four hours, as new trip data arrives. Each hour has to start from where the last one left off.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Plan format</span><span>Routes and stock add up</span><span>Each step picks up where the last ended</span></div></div>
+              <div><h3>How it is scored</h3><p>The executed plan is replayed and scored on service cost.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-25" data-id="25" data-industry="bike-sharing" data-class="inventory-rebalancing" data-type="static" data-tags="K1" data-search="one-hour bike rebalancing plan one hour of moving shared bikes between stations from trip and stock records, scored on the service cost once the plan is carried out. bike sharing inventory rebalancing plan one shared-bike rebalancing operation from trip and inventory records. the executed plan is replayed and scored on service cost. plan format routes and stock add up each step picks up where the last ended rebalancing network flow bike sharing k1 task 25 25_sharedbike_static_e2e">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-25.svg" data-zoom data-open="25" tabindex="-1" aria-hidden="true"><img src="case-images/task-25.svg" data-src-zh="case-images/zh/task-25.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 25</span>
+              <h2 class="task-title"><a href="case-images/task-25.svg" data-open="25">One-hour bike rebalancing</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #12704a 35%, var(--border));background:color-mix(in srgb, #12704a 9%, var(--surface))">Bike sharing</span>
+                <span class="chip soft">Inventory rebalancing</span>
+<span class="chip" title="The business goal is stated and the math model is mostly fixed.">Clear-cut model</span>              </div>
+              <p class="task-summary">Plan one hour of moving shared bikes between stations from trip and stock records, scored on the service cost once the plan is carried out.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Plan format</span><span>Routes and stock add up</span><span>Each step picks up where the last ended</span></div></div>
+              <div><h3>How it is scored</h3><p>The executed plan is replayed and scored on service cost.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-26" data-id="26" data-industry="bike-sharing" data-class="stochastic-optimization" data-type="rolling" data-tags="K2 K4 K5 K6" data-search="bike rebalancing averaged over scenarios in rolling rounds, choose one four-hour plan for moving bikes that does best on average across four past scenarios, counting both moving costs and lost service. bike sharing stochastic optimization rebalance shared bikes in rolling rounds, planning ahead on the average of past scenarios. scored by the project’s rules for execution and scenario risk, with supporting measures. format of each round one plan for all scenarios physically possible stock carried over hour to hour rebalancing sample average approximation bike sharing k2 k4 k5 k6 task 26 26_sharedbike_ssa_e2e">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-26.svg" data-zoom data-open="26" tabindex="-1" aria-hidden="true"><img src="case-images/task-26.svg" data-src-zh="case-images/zh/task-26.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 26</span>
+              <h2 class="task-title"><a href="case-images/task-26.svg" data-open="26">Bike rebalancing averaged over scenarios</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #12704a 35%, var(--border));background:color-mix(in srgb, #12704a 9%, var(--surface))">Bike sharing</span>
+                <span class="chip soft">Stochastic optimization</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="The plan has to cope with several scenarios or uncertain inputs.">Uncertain inputs</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">In rolling rounds, choose one four-hour plan for moving bikes that does best on average across four past scenarios, counting both moving costs and lost service.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Format of each round</span><span>One plan for all scenarios</span><span>Physically possible</span><span>Stock carried over hour to hour</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored by the project’s rules for execution and scenario risk, with supporting measures.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-27" data-id="27" data-industry="bike-sharing" data-class="two-stage-stochastic-programming" data-type="rolling" data-tags="K2 K4 K5 K6" data-search="bike rebalancing: decide now, adjust later commit to the first hour of bike moves now, then adjust the next three hours separately for each scenario. all scenarios count equally. bike sharing two-stage stochastic programming rebalance shared bikes in rolling rounds with scenario-dependent later adjustments. scored by the project’s rules for execution and scenario risk, with supporting measures. format of each round one plan for all scenarios physically possible stock carried over hour to hour rebalancing two-stage stochastic programming bike sharing k2 k4 k5 k6 task 27 27_sharedbike_two_stage_e2e">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-27.svg" data-zoom data-open="27" tabindex="-1" aria-hidden="true"><img src="case-images/task-27.svg" data-src-zh="case-images/zh/task-27.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 27</span>
+              <h2 class="task-title"><a href="case-images/task-27.svg" data-open="27">Bike rebalancing: decide now, adjust later</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #12704a 35%, var(--border));background:color-mix(in srgb, #12704a 9%, var(--surface))">Bike sharing</span>
+                <span class="chip soft">Two-stage stochastic programming</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="The plan has to cope with several scenarios or uncertain inputs.">Uncertain inputs</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Commit to the first hour of bike moves now, then adjust the next three hours separately for each scenario. All scenarios count equally.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Format of each round</span><span>One plan for all scenarios</span><span>Physically possible</span><span>Stock carried over hour to hour</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored by the project’s rules for execution and scenario risk, with supporting measures.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-28" data-id="28" data-industry="bike-sharing" data-class="chance-constrained-optimization" data-type="rolling" data-tags="K2 K3 K4 K5 K6" data-search="bike rebalancing: protect key stations choose one bike-moving plan for all scenarios, with an extra penalty when key stations, picked from past data, run out of bikes too often. bike sharing chance-constrained optimization rebalance shared bikes in rolling rounds while keeping shortages at key stations rare. scored by the project’s rules for execution and scenario risk, with supporting measures. format of each round one plan for all scenarios physically possible stock carried over hour to hour rebalancing chance constraints bike sharing k2 k3 k4 k5 k6 task 28 28_sharedbike_chance_e2e">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-28.svg" data-zoom data-open="28" tabindex="-1" aria-hidden="true"><img src="case-images/task-28.svg" data-src-zh="case-images/zh/task-28.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 28</span>
+              <h2 class="task-title"><a href="case-images/task-28.svg" data-open="28">Bike rebalancing: protect key stations</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #12704a 35%, var(--border));background:color-mix(in srgb, #12704a 9%, var(--surface))">Bike sharing</span>
+                <span class="chip soft">Chance-constrained optimization</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Demand, risk or scenario parameters have to be estimated from data.">Estimate from data</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="The plan has to cope with several scenarios or uncertain inputs.">Uncertain inputs</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Choose one bike-moving plan for all scenarios, with an extra penalty when key stations, picked from past data, run out of bikes too often.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Format of each round</span><span>One plan for all scenarios</span><span>Physically possible</span><span>Stock carried over hour to hour</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored by the project’s rules for execution and scenario risk, with supporting measures.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-29" data-id="29" data-industry="bike-sharing" data-class="risk-averse-optimization" data-type="rolling" data-tags="K2 K4 K5 K6" data-search="bike rebalancing: limit the worst losses choose one bike-moving plan that balances moving costs, the average loss across scenarios and the average loss in the worst scenarios. bike sharing risk-averse optimization rebalance shared bikes in rolling rounds while keeping the worst losses in check. scored by the project’s rules for execution and scenario risk, with supporting measures. format of each round one plan for all scenarios physically possible stock carried over hour to hour rebalancing cvar bike sharing k2 k4 k5 k6 task 29 29_sharedbike_cvar_e2e">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-29.svg" data-zoom data-open="29" tabindex="-1" aria-hidden="true"><img src="case-images/task-29.svg" data-src-zh="case-images/zh/task-29.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 29</span>
+              <h2 class="task-title"><a href="case-images/task-29.svg" data-open="29">Bike rebalancing: limit the worst losses</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #12704a 35%, var(--border));background:color-mix(in srgb, #12704a 9%, var(--surface))">Bike sharing</span>
+                <span class="chip soft">Risk-averse optimization</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="The plan has to cope with several scenarios or uncertain inputs.">Uncertain inputs</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Choose one bike-moving plan that balances moving costs, the average loss across scenarios and the average loss in the worst scenarios.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Format of each round</span><span>One plan for all scenarios</span><span>Physically possible</span><span>Stock carried over hour to hour</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored by the project’s rules for execution and scenario risk, with supporting measures.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-30" data-id="30" data-industry="bike-sharing" data-class="distributionally-robust-optimization" data-type="rolling" data-tags="K2 K4 K5 K6" data-search="bike rebalancing when the odds are uncertain choose one bike-moving plan that holds up even if the chance of each past scenario is not known exactly, guarding against the worst expected loss within a set range. bike sharing distributionally robust optimization rebalance shared bikes in rolling rounds when the odds of each demand scenario are uncertain. scored by the project’s rules for execution and scenario risk, with supporting measures. format of each round one plan for all scenarios physically possible stock carried over hour to hour rebalancing distributionally robust optimization bike sharing k2 k4 k5 k6 task 30 30_sharedbike_dro_e2e">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-30.svg" data-zoom data-open="30" tabindex="-1" aria-hidden="true"><img src="case-images/task-30.svg" data-src-zh="case-images/zh/task-30.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 30</span>
+              <h2 class="task-title"><a href="case-images/task-30.svg" data-open="30">Bike rebalancing when the odds are uncertain</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #12704a 35%, var(--border));background:color-mix(in srgb, #12704a 9%, var(--surface))">Bike sharing</span>
+                <span class="chip soft">Distributionally robust optimization</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="The plan has to cope with several scenarios or uncertain inputs.">Uncertain inputs</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Choose one bike-moving plan that holds up even if the chance of each past scenario is not known exactly, guarding against the worst expected loss within a set range.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Format of each round</span><span>One plan for all scenarios</span><span>Physically possible</span><span>Stock carried over hour to hour</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored by the project’s rules for execution and scenario risk, with supporting measures.</p></div>
+            </div>
+          </div>
+        </li>
+        <li class="task-card" id="task-31" data-id="31" data-industry="bike-sharing" data-class="robust-optimization" data-type="rolling" data-tags="K2 K3 K4 K5 K6" data-search="bike rebalancing: plan for 16 bad cases build 16 agreed bad cases from past data, then choose one bike-moving plan that keeps the largest loss across them as small as possible. bike sharing robust optimization rebalance shared bikes in rolling rounds against agreed adverse demand-return scenarios. scored by the project’s robust-planning rules and compared with a baseline plan. format of each round one plan for all scenarios physically possible stock carried over hour to hour rebalancing robust optimization bike sharing k2 k3 k4 k5 k6 task 31 31_sharedbike_robust_e2e">
+          <div class="task-inner">
+            <a class="task-thumb" href="case-images/task-31.svg" data-zoom data-open="31" tabindex="-1" aria-hidden="true"><img src="case-images/task-31.svg" data-src-zh="case-images/zh/task-31.svg" alt="" width="640" height="320" loading="lazy" decoding="async"></a>
+            <div class="task-body">
+              <span class="task-id">TASK 31</span>
+              <h2 class="task-title"><a href="case-images/task-31.svg" data-open="31">Bike rebalancing: plan for 16 bad cases</a></h2>
+              <div class="task-chips">
+                <span class="chip" style="border-color:color-mix(in srgb, #12704a 35%, var(--border));background:color-mix(in srgb, #12704a 9%, var(--surface))">Bike sharing</span>
+                <span class="chip soft">Robust optimization</span>
+<span class="chip" title="No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.">Design your own approach</span><span class="chip" title="Demand, risk or scenario parameters have to be estimated from data.">Estimate from data</span><span class="chip" title="Decisions span several periods or steps, such as batching, sequencing or rolling execution.">Several periods or steps</span><span class="chip" title="The plan has to cope with several scenarios or uncertain inputs.">Uncertain inputs</span><span class="chip" title="Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.">Tie-breaking rules</span>              </div>
+              <p class="task-summary">Build 16 agreed bad cases from past data, then choose one bike-moving plan that keeps the largest loss across them as small as possible.</p>
+            </div>
+            <div class="task-side">
+              <div><h3>What is checked</h3><div class="checks"><span>Format of each round</span><span>One plan for all scenarios</span><span>Physically possible</span><span>Stock carried over hour to hour</span></div></div>
+              <div><h3>How it is scored</h3><p>Scored by the project’s robust-planning rules and compared with a baseline plan.</p></div>
+            </div>
+          </div>
+        </li>
+      </ol>
+      <div class="empty-state" id="task-empty" hidden>
+        <p><b>No tasks match these filters.</b></p>
+        <p>Try a different search term or clear the filters.</p>
+        <button class="btn" type="button" data-clear>Clear filters</button>
+      </div>
+      <details class="k-key">
+        <summary>What do the skill labels mean?</summary>
+        <div class="k-grid">
+<div><b>Clear-cut model</b><span>The business goal is stated and the math model is mostly fixed.</span></div><div><b>Design your own approach</b><span>No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.</span></div><div><b>Estimate from data</b><span>Demand, risk or scenario parameters have to be estimated from data.</span></div><div><b>Several periods or steps</b><span>Decisions span several periods or steps, such as batching, sequencing or rolling execution.</span></div><div><b>Uncertain inputs</b><span>The plan has to cope with several scenarios or uncertain inputs.</span></div><div><b>Tie-breaking rules</b><span>Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule.</span></div>        </div>
+        <p class="note">A task can carry several labels. They describe the task and play no part in scoring.</p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<dialog class="task-dialog" id="task-dialog" aria-labelledby="dlg-title">
+  <div class="dlg-shell">
+    <div class="dlg-head">
+      <span class="task-id" data-dlg="num"></span>
+      <button class="icon-btn" type="button" data-dlg-close aria-label="Close" title="Close"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="m4 4 8 8M12 4l-8 8"/></svg></button>
+    </div>
+    <div class="dlg-body">
+      <figure class="dlg-figure">
+        <a href="" data-zoom data-dlg-zoom target="_blank" rel="noopener"><img src="data:," data-dlg-img alt="" width="640" height="320"></a>
+        <figcaption>Simplified diagram. Click it to open at full size.</figcaption>
+      </figure>
+      <div>
+        <h2 class="dlg-title" id="dlg-title" data-dlg="title"></h2>
+        <p class="dlg-summary" data-dlg="summary"></p>
+        <dl class="dlg-meta">
+          <dt>Industry</dt><dd data-dlg="industry"></dd>
+          <dt>Problem type</dt><dd data-dlg="problem_class"></dd>
+          <dt>How decisions are made</dt><dd data-dlg="type_label"></dd>
+          <dt>Goal</dt><dd data-dlg="direction"></dd>
+          <dt>Skills needed</dt><dd data-dlg-caps></dd>
+          <dt data-dlg-solver-row>Required solver</dt><dd data-dlg="solvers" data-dlg-solver-row translate="no"></dd>
+        </dl>
+        <div class="dlg-section"><h3>What is checked</h3><ul data-dlg-checked></ul></div>
+        <div class="dlg-section"><h3>How it is scored</h3><p data-dlg="objective"></p></div>
+        <div class="dlg-section"><h3>Task description</h3><p data-dlg="desc"></p></div>
+      </div>
+    </div>
+    <div class="dlg-foot">
+      <a class="btn" href="" data-dlg-repo>Task files on GitHub <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3.5H3.5v9h9V10M9 3h4v4M13 3 7.5 8.5"/></svg></a>
+      <div class="nav-btns">
+        <button class="btn" type="button" data-dlg-step="-1"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 3.5 5.5 8l4.5 4.5"/></svg><span>Previous task</span></button>
+        <button class="btn" type="button" data-dlg-step="1"><span>Next task</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg></button>
+      </div>
+    </div>
+  </div>
+</dialog>
+<script type="application/json" id="tasks-data">{"capNotes": {"K1": "The business goal is stated and the math model is mostly fixed.", "K2": "No method is given: the agent must design its own objective, decomposition, heuristic, policy or rolling scheme.", "K3": "Demand, risk or scenario parameters have to be estimated from data.", "K4": "Decisions span several periods or steps, such as batching, sequencing or rolling execution.", "K5": "The plan has to cope with several scenarios or uncertain inputs.", "K6": "Plans that tie, or nearly tie, on the main goal must be ranked by a secondary rule."}, "caps": {"K1": "Clear-cut model", "K2": "Design your own approach", "K3": "Estimate from data", "K4": "Several periods or steps", "K5": "Uncertain inputs", "K6": "Tie-breaking rules"}, "tasks": [{"alt": "Parallel pot lanes align illustrative brine batches with time, shared resources, and demand.", "checked": ["Output format", "Schedule format", "No resource or time clashes", "Demand is met"], "desc": "Schedule one day of braising-pot production for seven products across two demand batches.", "direction": "Lower is better", "id": 1, "img": "case-images/task-01.svg", "img_zh": "case-images/zh/task-01.svg", "industry": "Food processing", "num": "01", "objective": "The overall score is recalculated with the project\u2019s scheduling goal.", "problem_class": "Production scheduling", "solvers": "", "summary": "Meet demand from two order batches without double-booking any pot or time slot. Plans that tie on the main goal are compared on secondary rules.", "tags": ["K2", "K4", "K6"], "title": "Multi-pot braising schedule", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/1_food1"}, {"alt": "A priority queue feeds multiple batch rounds within a short horizon and a shared resource limit.", "checked": ["Batch schedule format", "Resource limits", "Demand and round limits"], "desc": "Schedule one day of multi-product stew-pot production with brine-state carry-over.", "direction": "Lower is better", "id": 2, "img": "case-images/task-02.svg", "img_zh": "case-images/zh/task-02.svg", "industry": "Food processing", "num": "02", "objective": "Scored on production efficiency and priorities.", "problem_class": "Production scheduling", "solvers": "", "summary": "Fit several production batches into one day within the limits on resources and rounds, while weighing efficiency against order priority.", "tags": ["K1", "K4"], "title": "One-day food production in batches", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/2_food2"}, {"alt": "Three illustrative batches of one product follow the same ordered stages toward completion.", "checked": ["Batches", "Process order", "Liquid replaced on time", "Demand is met"], "desc": "Schedule single-product stew-pot batches with brine replacement to minimize the latest completion time.", "direction": "Lower is better", "id": 3, "img": "case-images/task-03.svg", "img_zh": "case-images/zh/task-03.svg", "industry": "Food processing", "num": "03", "objective": "Scored on completion time.", "problem_class": "Production scheduling", "solvers": "", "summary": "Run batch after batch of a single product in the right process order, replace the braising liquid when it wears out, and finish as early as possible.", "tags": ["K1", "K4"], "title": "Repeated batches of one product", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/3_food3"}, {"alt": "A longer-horizon product sequence includes transition steps, ordering, and soft preferences.", "checked": ["Every product scheduled", "Changeovers", "Product order", "Timing rules"], "desc": "Schedule five products across stew pots with brine and product-sequence dependencies.", "direction": "Lower is better", "id": 4, "img": "case-images/task-04.svg", "img_zh": "case-images/zh/task-04.svg", "industry": "Food processing", "num": "04", "objective": "Scored on completion times, job order and soft preferences.", "problem_class": "Production scheduling", "solvers": "", "summary": "Sequence five products across the pots, where each product depends on what ran before and on the state of the liquid. Finish on time while respecting soft preferences.", "tags": ["K2", "K4", "K6"], "title": "Five food products over a longer period", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/4_food4"}, {"alt": "A branching brine-flow graph links batches, showing precedence, continuity, and demand coverage.", "checked": ["Liquid flow between batches", "What must come first", "Flow never breaks", "Demand is met"], "desc": "Assign and sequence multi-variety production across heterogeneous stew-pot types.", "direction": "Lower is better", "id": 5, "img": "case-images/task-05.svg", "img_zh": "case-images/zh/task-05.svg", "industry": "Food processing", "num": "05", "objective": "Scored on production timing.", "problem_class": "Production scheduling", "solvers": "", "summary": "Braising liquid passes from one batch to the next, so the batches must run in an order that keeps that flow unbroken while meeting demand.", "tags": ["K1", "K4"], "title": "Batches linked by shared braising liquid", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/5_food5"}, {"alt": "Two schematic IC board resources are assigned on an explicit forty-day calendar. Capacity, timing, and process requirements apply.", "checked": ["Output format", "Resource assignment", "Capacity limits", "Timing", "Process rules"], "desc": "Schedule integrated-circuit burn-in tests onto compatible boards, equipment and areas over 40 days.", "direction": "Higher is better", "id": 6, "img": "case-images/task-06.svg", "img_zh": "case-images/zh/task-06.svg", "industry": "Semiconductor testing", "num": "06", "objective": "Scored on scheduling efficiency and workload pressure, as the project defines them.", "problem_class": "Resource-constrained scheduling", "solvers": "", "summary": "Assign chip burn-in tests to compatible boards, machines and areas over 40 days, within capacity, timing and process rules.", "tags": ["K2", "K4"], "title": "40-day chip burn-in schedule", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/6_ic_board"}, {"alt": "Daily process steps are paired with feasible resource slots within a single-day execution window.", "checked": ["Output format", "Resource assignment", "Capacity limits", "Timing", "Process rules"], "desc": "Build a 28-day loading plan for integrated-circuit burn-in tasks with reusable resources.", "direction": "Higher is better", "id": 7, "img": "case-images/task-07.svg", "img_zh": "case-images/zh/task-07.svg", "industry": "Semiconductor testing", "num": "07", "objective": "Scored on scheduling efficiency and workload pressure, as the project defines them.", "problem_class": "Resource-constrained scheduling", "solvers": "", "summary": "Build a day-by-day loading plan for chip burn-in tests over 28 days, reusing boards and machines within capacity, timing and process rules.", "tags": ["K2", "K4"], "title": "Daily chip burn-in schedule", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/7_ic_test"}, {"alt": "Packaging actions connect successive inventory states, while production records are replayed to check continuity.", "checked": ["Production records replayed step by step", "Resources and stock add up", "Each step picks up where the last ended"], "desc": "Plan sea-salt drying and packaging production for orders with due dates, rush orders and changeovers.", "direction": "Higher is better", "id": 8, "img": "case-images/task-08.svg", "img_zh": "case-images/zh/task-08.svg", "industry": "Salt production", "num": "08", "objective": "Scored on backlog and service level.", "problem_class": "Production scheduling", "solvers": "", "summary": "Plan drying and packaging for orders with due dates, rush orders and changeovers. The plan is replayed step by step to check that resources and stock always add up.", "tags": ["K2", "K4"], "title": "Salt drying and packaging schedule", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/8_salt"}, {"alt": "Material stock is divided into matched demand pieces and remaining material, preserving the material balance.", "checked": ["Allocation format", "Right material for each order", "Demand is met", "All material accounted for"], "desc": "Allocate parent rolls and outsourced rolls to slitting patterns that cover customer orders.", "direction": "Lower is better", "id": 9, "img": "case-images/task-09.svg", "img_zh": "case-images/zh/task-09.svg", "industry": "Roll converting", "num": "09", "objective": "Scored on material use and allocation.", "problem_class": "Cutting stock", "solvers": "", "summary": "Decide which parent rolls and bought-in rolls to cut, and how, so that customer orders are covered and all material is accounted for.", "tags": ["K1"], "title": "Cutting large rolls to fill orders", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/9_slitting"}, {"alt": "Coal inventory hoppers feed a fixed-ratio blend, with material bounds and quality requirements.", "checked": ["Blend format", "Limits on each material", "Stock on hand", "Quality limits"], "desc": "Plan coal blending for coking production under inventory, price and quality limits.", "direction": "Lower is better", "id": 10, "img": "case-images/task-10.svg", "img_zh": "case-images/zh/task-10.svg", "industry": "Coking", "num": "10", "objective": "Scored on cost, return or quality, as the project specifies.", "problem_class": "Blending", "solvers": "", "summary": "Choose a coal blend for coking that stays within stock, price and quality limits.", "tags": ["K1"], "title": "Fixed-ratio coal blending", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/10_coke"}, {"alt": "Three available material stocks feed variable allocations into a concentrate recipe, which must stay within quality bounds. Schematic variables only.", "checked": ["Blend format", "Limits on each material", "Stock on hand", "Quality limits"], "desc": "Prepare a copper-concentrate batching list for a flash furnace under composition and inventory limits.", "direction": "Lower is better", "id": 11, "img": "case-images/task-11.svg", "img_zh": "case-images/zh/task-11.svg", "industry": "Copper smelting", "num": "11", "objective": "Scored on cost, return or quality, as the project specifies.", "problem_class": "Blending", "solvers": "", "summary": "Prepare the copper-concentrate batching list for a flash furnace, keeping the mix within composition and stock limits.", "tags": ["K1"], "title": "Copper-concentrate blending", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/11_copper"}, {"alt": "Material identifiers are partitioned into rule-constrained groups or an explicit unassigned-material record, with secondary ordering between groups.", "checked": ["Grouping rules", "Rules within each batch", "Leftover blocks listed"], "desc": "Divide alloy material blocks into smelting batches that meet composition limits.", "direction": "Lower is better", "id": 12, "img": "case-images/task-12.svg", "img_zh": "case-images/zh/task-12.svg", "industry": "Alloy smelting", "num": "12", "objective": "Scored on leftover material first, then on a secondary ordering rule.", "problem_class": "Batching", "solvers": "", "summary": "Divide alloy blocks into smelting batches that meet composition limits and list any blocks left out. Plans are compared on leftovers first, then on a secondary rule.", "tags": ["K1", "K6"], "title": "Grouping alloy blocks into smelting batches", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/12_batching"}, {"alt": "A historical-data inventory policy applies to a fixed network. An as-of boundary preserves temporal consistency while service records support evaluation.", "checked": ["Policy in the required form", "Allowed parameter values", "Service records", "No use of future data"], "desc": "Choose an inventory policy for a fixed network of factories, central warehouses and regional warehouses.", "direction": "Lower is better", "id": 13, "img": "case-images/task-13.svg", "img_zh": "case-images/zh/task-13.svg", "industry": "Supply chain", "num": "13", "objective": "Scored on historical data against several goals, as the project specifies.", "problem_class": "Inventory optimization", "solvers": "", "summary": "Use past data to set finished-goods stock levels for a fixed network of factories and warehouses, using only the data available at each decision date.", "tags": ["K2", "K3", "K4", "K5", "K6"], "title": "Inventory policy for an existing network", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/13_inventory"}, {"alt": "A four-echelon fixed-category network links feasible paths through capacity-constrained facilities to demand. Arrows express balanced flow, not measured quantities.", "checked": ["Valid network links", "Valid routes", "Flows balance", "Capacity limits", "Demand is met", "Service targets"], "desc": "Optimize a four-tier network of suppliers, factories, warehouses and regional warehouses.", "direction": "Lower is better", "id": 14, "img": "case-images/task-14.svg", "img_zh": "case-images/zh/task-14.svg", "industry": "Supply chain", "num": "14", "objective": "Cost and service are recalculated with the project\u2019s accounting rules.", "problem_class": "Network design", "solvers": "", "summary": "Plan how goods flow from suppliers through factories and warehouses to regional warehouses, within capacity and while meeting demand and service targets.", "tags": ["K1", "K2", "K4"], "title": "Four-tier supply network", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/14_network_tiered"}, {"alt": "A CDC can serve customers directly along a highlighted bypass or through an intermediate network node, under the same flow and service constraints.", "checked": ["Valid network links", "Valid routes", "Flows balance", "Capacity limits", "Demand is met", "Service targets"], "desc": "Optimize a supply-chain network in which factories supply regional warehouses and customers can also be supplied directly.", "direction": "Lower is better", "id": 15, "img": "case-images/task-15.svg", "img_zh": "case-images/zh/task-15.svg", "industry": "Supply chain", "num": "15", "objective": "Cost and service are recalculated with the project\u2019s accounting rules.", "problem_class": "Network design", "solvers": "", "summary": "Like a regular supply network, except that customers can also be supplied directly. Flows must balance, stay within capacity and meet demand and service targets.", "tags": ["K1", "K2", "K4"], "title": "Supply network with direct shipping", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/15_network_direct"}, {"alt": "Category A and category B enter shared CDC storage and flow to customer demand. Shared storage and category-specific paths must satisfy capacity and balance constraints.", "checked": ["Valid network links", "Valid routes", "Flows balance", "Capacity limits", "Demand is met", "Service targets"], "desc": "Optimize a supply-chain network with hybrid central-warehouse storage.", "direction": "Lower is better", "id": 16, "img": "case-images/task-16.svg", "img_zh": "case-images/zh/task-16.svg", "industry": "Supply chain", "num": "16", "objective": "Cost and service are recalculated with the project\u2019s accounting rules.", "problem_class": "Network design", "solvers": "", "summary": "Plan a supply network whose central warehouses store several product categories together, within capacity and while meeting demand and service targets.", "tags": ["K1", "K2", "K4"], "title": "Supply network with shared central storage", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/16_network_mixed"}, {"alt": "Material inputs combine in a recipe, then split into coproducts linked to sales within a single-month refinery plan.", "checked": ["Allowed values", "All material accounted for", "Processing recipes", "Joint-product proportions"], "desc": "Plan one month of refinery processing to maximize gross profit under material balances.", "direction": "Lower is better", "id": 17, "img": "case-images/task-17.svg", "img_zh": "case-images/zh/task-17.svg", "industry": "Petroleum refining", "num": "17", "objective": "Revenue and cost are recalculated with the project\u2019s accounting rules.", "problem_class": "Production planning", "solvers": "", "summary": "Plan a month of refinery processing and sales for the highest gross profit. Every input must be accounted for, and products made together must come out in the right proportions.", "tags": ["K1"], "title": "One month of refinery production and sales", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/17_petroleum"}, {"alt": "Exactly seven production lanes show assigned order sequences. A changeover gap and a due-time marker illustrate compatibility, capacity, and tardiness checks; durations are schematic.", "checked": ["Every order assigned", "Line capacity", "Product compatibility", "Timing rules"], "desc": "Assign and sequence engineering-plastics orders on parallel production lines.", "direction": "Lower is better", "id": 18, "img": "case-images/task-18.svg", "img_zh": "case-images/zh/task-18.svg", "industry": "Engineering plastics", "num": "18", "objective": "Scored on late jobs and product changeovers.", "problem_class": "Parallel-machine scheduling", "solvers": "", "summary": "Assign engineering-plastics orders to seven production lines and put them in order, respecting line capacity and product compatibility, with as few late orders and changeovers as possible.", "tags": ["K1", "K4", "K6"], "title": "Order sequencing on seven plastics lines", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/18_plastic"}, {"alt": "Unique order identifiers each enter exactly one wave. Wave enclosures show capacity limits without assuming any empirical order volume or performance.", "checked": ["Wave format", "Every order covered", "No order counted twice", "Capacity limits"], "desc": "Batch loose-pick outbound orders into picking waves for a warehouse.", "direction": "Lower is better", "id": 19, "img": "case-images/task-19.svg", "img_zh": "case-images/zh/task-19.svg", "industry": "Warehousing", "num": "19", "objective": "Scored on the quality of the picking waves.", "problem_class": "Order batching", "solvers": "", "summary": "Group outbound orders into picking waves so that every order is in exactly one wave and no wave is over capacity.", "tags": ["K1", "K2"], "title": "Picking waves for a warehouse", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/19_wave"}, {"alt": "Historical information available as of time t feeds nonnegative portfolio weights. Future information is excluded, and the resulting trading trajectory is evaluated in a fixed backtest.", "checked": ["Strategy in the required form", "Code runs", "Trading rules in the backtest"], "desc": "Run a CSI 2000 enhanced-index portfolio through a date-restricted backtest.", "direction": "Lower is better", "id": 20, "img": "case-images/task-20.svg", "img_zh": "case-images/zh/task-20.svg", "industry": "Asset management", "num": "20", "objective": "The resulting trades are run through a fixed backtest to recalculate performance.", "problem_class": "Portfolio optimization", "solvers": "MOSEK", "summary": "Write a stock strategy that aims to beat the CSI 2000 index using only the information available on each date. Its trades are run through a fixed backtest.", "tags": ["K2", "K3", "K4"], "title": "Long-only index-enhancement strategy", "type_label": "Backtest, no future data", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/20_enhanced_index_asof"}, {"alt": "Positive long and negative short portfolio positions balance around zero exposure. The trading trajectory proceeds through a fixed backtest under trading constraints.", "checked": ["Strategy in the required form", "Code runs", "Trading rules in the backtest"], "desc": "Run a market-neutral long-short stock portfolio through a date-restricted backtest.", "direction": "Lower is better", "id": 21, "img": "case-images/task-21.svg", "img_zh": "case-images/zh/task-21.svg", "industry": "Asset management", "num": "21", "objective": "The resulting trades are run through a fixed backtest to recalculate performance.", "problem_class": "Portfolio optimization", "solvers": "COPT", "summary": "Write a strategy that buys some stocks and sells others short so that market moves cancel out, within the trading rules. Its trades are run through a fixed backtest.", "tags": ["K2", "K3", "K4"], "title": "Market-neutral long\u2013short strategy", "type_label": "Backtest, no future data", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/21_longshort"}, {"alt": "A long-equity portfolio and an IC futures hedge feed joint trading decisions. The resulting trading trajectory is evaluated with a fixed backtest; no hedge ratio or performance is assumed.", "checked": ["Strategy in the required form", "Code runs", "Trading rules in the backtest"], "desc": "Run a CSI 500 long-only portfolio hedged with IC futures through a date-restricted backtest.", "direction": "Lower is better", "id": 22, "img": "case-images/task-22.svg", "img_zh": "case-images/zh/task-22.svg", "industry": "Asset management", "num": "22", "objective": "The resulting trades are run through a fixed backtest to recalculate performance.", "problem_class": "Portfolio optimization", "solvers": "COPT", "summary": "Write a strategy that holds CSI 500 stocks and hedges market risk with IC index futures. Its trades are run through a fixed backtest.", "tags": ["K2", "K3", "K4"], "title": "Stock portfolio hedged with index futures", "type_label": "Backtest, no future data", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/22_sif"}, {"alt": "Three daily panels show confirmed orders entering committed dispatch routes. Batches are irreversible and the orders of each day must be cleared. Route shapes are schematic, with no distances or order counts.", "checked": ["Dispatch in batches", "Every order covered", "Valid routes", "Capacity limits", "Service targets"], "desc": "Dispatch vehicles for fresh-grocery orders released in rolling confirmation batches.", "direction": "Lower is better", "id": 23, "img": "case-images/task-23.svg", "img_zh": "case-images/zh/task-23.svg", "industry": "Grocery delivery", "num": "23", "objective": "Scored on delivery performance.", "problem_class": "Dynamic vehicle routing", "solvers": "", "summary": "Send out vehicles for grocery orders batch by batch as they are confirmed over three days. Dispatches cannot be undone, routes must respect vehicle capacity, and each day\u2019s orders must all go out.", "tags": ["K2", "K4", "K5"], "title": "Three days of grocery delivery", "type_label": "Rolling rounds", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/23_dynamic_grocery"}, {"alt": "Four consecutive hourly control windows each receive newly disclosed data and execute a plan. Arrows pass route and inventory state from one hour to the next.", "checked": ["Plan format", "Routes and stock add up", "Each step picks up where the last ended"], "desc": "Rebalance shared bikes hour by hour from progressively revealed trips and inventory.", "direction": "Lower is better", "id": 24, "img": "case-images/task-24.svg", "img_zh": "case-images/zh/task-24.svg", "industry": "Bike sharing", "num": "24", "objective": "The executed plan is replayed and scored on service cost.", "problem_class": "Inventory rebalancing", "solvers": "", "summary": "Move shared bikes between stations one hour at a time over four hours, as new trip data arrives. Each hour has to start from where the last one left off.", "tags": ["K2", "K4", "K6"], "title": "Hour-by-hour bike rebalancing", "type_label": "Rolling rounds", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/24_sharedbike_e2e"}, {"alt": "A single committed one-hour route joins schematic bike stations A, B, and C. Station inventories and route movements are considered together, with no rolling replanning or empirical quantities shown.", "checked": ["Plan format", "Routes and stock add up", "Each step picks up where the last ended"], "desc": "Plan one shared-bike rebalancing operation from trip and inventory records.", "direction": "Lower is better", "id": 25, "img": "case-images/task-25.svg", "img_zh": "case-images/zh/task-25.svg", "industry": "Bike sharing", "num": "25", "objective": "The executed plan is replayed and scored on service cost.", "problem_class": "Inventory rebalancing", "solvers": "", "summary": "Plan one hour of moving shared bikes between stations from trip and stock records, scored on the service cost once the plan is carried out.", "tags": ["K1"], "title": "One-hour bike rebalancing", "type_label": "One-time plan", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/25_sharedbike_static_e2e"}, {"alt": "The same four-hour relocation plan is evaluated in four eligible historical scenarios. Their operating losses are averaged, and relocation cost is added before the process rolls forward.", "checked": ["Format of each round", "One plan for all scenarios", "Physically possible", "Stock carried over hour to hour"], "desc": "Rebalance shared bikes in rolling rounds, planning ahead on the average of past scenarios.", "direction": "Lower is better", "id": 26, "img": "case-images/task-26.svg", "img_zh": "case-images/zh/task-26.svg", "industry": "Bike sharing", "num": "26", "objective": "Scored by the project\u2019s rules for execution and scenario risk, with supporting measures.", "problem_class": "Stochastic optimization", "solvers": "", "summary": "In rolling rounds, choose one four-hour plan for moving bikes that does best on average across four past scenarios, counting both moving costs and lost service.", "tags": ["K2", "K4", "K5", "K6"], "title": "Bike rebalancing averaged over scenarios", "type_label": "Rolling rounds", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/26_sharedbike_ssa_e2e"}, {"alt": "One shared first-hour relocation decision branches into scenario-specific recourse for hours two, three, and four. Two labeled branches and an ellipsis represent the scenario set. Planning costs have equal scenario weights.", "checked": ["Format of each round", "One plan for all scenarios", "Physically possible", "Stock carried over hour to hour"], "desc": "Rebalance shared bikes in rolling rounds with scenario-dependent later adjustments.", "direction": "Lower is better", "id": 27, "img": "case-images/task-27.svg", "img_zh": "case-images/zh/task-27.svg", "industry": "Bike sharing", "num": "27", "objective": "Scored by the project\u2019s rules for execution and scenario risk, with supporting measures.", "problem_class": "Two-stage stochastic programming", "solvers": "", "summary": "Commit to the first hour of bike moves now, then adjust the next three hours separately for each scenario. All scenarios count equally.", "tags": ["K2", "K4", "K5", "K6"], "title": "Bike rebalancing: decide now, adjust later", "type_label": "Rolling rounds", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/27_sharedbike_two_stage_e2e"}, {"alt": "Historical information selects protected stations. A shared bike-relocation plan is assessed for shortage events there. A symbolic event-rate band separates the permitted part from excess slack, which incurs a penalty. The band is not empirical data.", "checked": ["Format of each round", "One plan for all scenarios", "Physically possible", "Stock carried over hour to hour"], "desc": "Rebalance shared bikes in rolling rounds while keeping shortages at key stations rare.", "direction": "Lower is better", "id": 28, "img": "case-images/task-28.svg", "img_zh": "case-images/zh/task-28.svg", "industry": "Bike sharing", "num": "28", "objective": "Scored by the project\u2019s rules for execution and scenario risk, with supporting measures.", "problem_class": "Chance-constrained optimization", "solvers": "", "summary": "Choose one bike-moving plan for all scenarios, with an extra penalty when key stations, picked from past data, run out of bikes too often.", "tags": ["K2", "K3", "K4", "K5", "K6"], "title": "Bike rebalancing: protect key stations", "type_label": "Rolling rounds", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/28_sharedbike_chance_e2e"}, {"alt": "A symbolic ordered loss band distinguishes all scenario operating losses from their high-loss tail. The shared plan balances relocation cost, mean operating loss, and CVaR tail risk. No empirical loss values or tail fraction are depicted.", "checked": ["Format of each round", "One plan for all scenarios", "Physically possible", "Stock carried over hour to hour"], "desc": "Rebalance shared bikes in rolling rounds while keeping the worst losses in check.", "direction": "Lower is better", "id": 29, "img": "case-images/task-29.svg", "img_zh": "case-images/zh/task-29.svg", "industry": "Bike sharing", "num": "29", "objective": "Scored by the project\u2019s rules for execution and scenario risk, with supporting measures.", "problem_class": "Risk-averse optimization", "solvers": "", "summary": "Choose one bike-moving plan that balances moving costs, the average loss across scenarios and the average loss in the worst scenarios.", "tags": ["K2", "K4", "K5", "K6"], "title": "Bike rebalancing: limit the worst losses", "type_label": "Rolling rounds", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/29_sharedbike_cvar_e2e"}, {"alt": "Historical scenarios and a shared relocation plan are evaluated under admissible scenario probabilities in an ambiguity set. The objective considers the worst expected operating loss over that set, rather than a maximum individual scenario loss.", "checked": ["Format of each round", "One plan for all scenarios", "Physically possible", "Stock carried over hour to hour"], "desc": "Rebalance shared bikes in rolling rounds when the odds of each demand scenario are uncertain.", "direction": "Lower is better", "id": 30, "img": "case-images/task-30.svg", "img_zh": "case-images/zh/task-30.svg", "industry": "Bike sharing", "num": "30", "objective": "Scored by the project\u2019s rules for execution and scenario risk, with supporting measures.", "problem_class": "Distributionally robust optimization", "solvers": "", "summary": "Choose one bike-moving plan that holds up even if the chance of each past scenario is not known exactly, guarding against the worst expected loss within a set range.", "tags": ["K2", "K4", "K5", "K6"], "title": "Bike rebalancing when the odds are uncertain", "type_label": "Rolling rounds", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/30_sharedbike_dro_e2e"}, {"alt": "Historical data produces sixteen prescribed adverse cases, shown as a numbered four-by-four grid. A shared relocation plan is assessed in all sixteen and optimized against their maximum operating loss.", "checked": ["Format of each round", "One plan for all scenarios", "Physically possible", "Stock carried over hour to hour"], "desc": "Rebalance shared bikes in rolling rounds against agreed adverse demand-return scenarios.", "direction": "Lower is better", "id": 31, "img": "case-images/task-31.svg", "img_zh": "case-images/zh/task-31.svg", "industry": "Bike sharing", "num": "31", "objective": "Scored by the project\u2019s robust-planning rules and compared with a baseline plan.", "problem_class": "Robust optimization", "solvers": "", "summary": "Build 16 agreed bad cases from past data, then choose one bike-moving plan that keeps the largest loss across them as small as possible.", "tags": ["K2", "K3", "K4", "K5", "K6"], "title": "Bike rebalancing: plan for 16 bad cases", "type_label": "Rolling rounds", "url": "https://github.com/NineAbyss/OR-License/tree/main/tasks/31_sharedbike_robust_e2e"}]}</script>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><rect width="32" height="32" rx="8" fill="#12704a"/><path d="M8 23.5 10.4 11l9.4-3.2 5.2 7.4-3.6 8.3z" fill="none" stroke="#ffffff" stroke-width="2.1" stroke-linejoin="round"/><path d="M10.6 21.2 21.4 9.6" stroke="#ffffff" stroke-opacity=".4" stroke-width="1.4" stroke-dasharray="2 2.4"/><circle cx="19.8" cy="7.8" r="3.2" fill="#d5f17a" stroke="#12704a" stroke-width="1.4"/></svg></span><span translate="no">OR-License</span></a>
+      <p>Evaluating LLM agents as real-world OR practitioners.</p>
+    </div>
+    <nav class="footer-links" aria-label="Footer">      <a href="leaderboard.html">Leaderboard</a>      <a href="tasks.html">Tasks</a>      <a href="orsim.html">ORSim</a>      <a href="analysis.html">Analysis</a>      <a href="https://arxiv.org/abs/2610.24087">Paper <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3.5H3.5v9h9V10M9 3h4v4M13 3 7.5 8.5"/></svg></a>
+      <a href="https://github.com/NineAbyss/OR-License">GitHub <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3.5H3.5v9h9V10M9 3h4v4M13 3 7.5 8.5"/></svg></a>
+      <a href="https://huggingface.co/datasets/OR-License/OR-License">Hugging Face <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3.5H3.5v9h9V10M9 3h4v4M13 3 7.5 8.5"/></svg></a>
+    </nav>
+  </div>
+  <div class="container footer-meta">
+    <span>© 2026 OR-License Team</span>
+    <span>Results are from the paper’s main experiment (arXiv:2610.24087).</span>
+  </div>
+</footer>
+</body>
+</html>

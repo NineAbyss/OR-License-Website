@@ -5,6 +5,7 @@
   const root = document.documentElement;
   const system = window.matchMedia('(prefers-color-scheme: dark)');
   let preference = null;
+  root.classList.add('js');
   try { preference = localStorage.getItem(key); } catch (_) {}
   if (!['light', 'dark'].includes(preference)) preference = null;
   function updateButton() {
@@ -18,14 +19,15 @@
     button.setAttribute('aria-label', label);
     button.setAttribute('title', label);
     button.setAttribute('aria-pressed', String(dark));
-    button.querySelector('.theme-label').textContent = chinese
-      ? (dark ? '浅色' : '深色') : (dark ? 'Light' : 'Dark');
+    const text = button.querySelector('.theme-label');
+    if (text) text.textContent = chinese ? (dark ? '浅色' : '深色') : (dark ? 'Light' : 'Dark');
   }
   function apply() {
     const theme = preference || (system.matches ? 'dark' : 'light');
     root.dataset.theme = theme;
     root.style.colorScheme = theme;
     updateButton();
+    document.dispatchEvent(new Event('or:themechange'));
   }
   apply();
   system.addEventListener('change', () => { if (!preference) apply(); });

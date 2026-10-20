@@ -1,0 +1,12 @@
+rank,model,reasoning_effort,feasibility_pct,feasibility_sd,daq_pct,daq_sd
+1,Grok 4.6,high,88.39,10.28,86.55,12.97
+2,GPT-5.6 Sol,xhigh,84.52,17.02,85.02,17.78
+3,Gemini 3.8 Flash,high,82.58,17.49,82.94,19.06
+4,Qwen3.8-Max,xhigh,78.71,23.11,77.97,23.71
+5,Claude Opus 5,xhigh,77.42,4.98,77.44,7.26
+6,Muse Spark 1.3,high,74.19,12.04,72.86,12.34
+7,DeepSeek-V4.1-Flash,high,69.68,14.60,69.28,15.93
+8,Hy4 preview,high,66.45,9.95,66.85,10.38
+9,Doubao-Seed-2.1-Pro,high,65.16,17.81,64.82,18.47
+10,GLM-5.3-Flash,max,62.58,25.35,63.21,25.68
+11,Hy3,high,45.16,19.58,43.77,19.50
