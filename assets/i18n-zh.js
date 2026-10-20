@@ -1,4 +1,5 @@
 window.OR_LICENSE_ZH = {
+  "UI design inspired in part by": "网站 UI 设计部分参考了",
   "(a) What gets optimized": "(a) 优化的是什么",
   "(b) Using the problem’s structure": "(b) 是否利用问题结构",
   "(s, S) inventory policy": "(s, S) 库存策略",

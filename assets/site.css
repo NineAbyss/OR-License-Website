@@ -212,6 +212,9 @@ html[data-theme="dark"] .theme-toggle .theme-icon-sun { display: block; }
 .footer-links a:hover { color: var(--fg); }
 .footer-links svg { width: 12px; height: 12px; }
 .footer-meta { display: flex; flex-wrap: wrap; gap: 4px 18px; padding-bottom: 30px; font-size: 12.5px; color: var(--subtle); }
+.footer-credit { flex-basis: 100%; margin-bottom: 4px; }
+.footer-credit a { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+.footer-credit a:hover { color: var(--fg); }
 
 /* ---------- Shared building blocks ---------- */
 .section { padding-block: 88px; }
