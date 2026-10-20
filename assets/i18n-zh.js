@@ -710,7 +710,7 @@ window.OR_LICENSE_ZH = {
   "Explicit problem-structure operations. Scroll horizontally on smaller screens.": "显式利用问题结构的操作。小屏幕上可横向滚动查看。",
   "Explore model performance, research processes, information acquisition, and failure patterns.": "探索模型表现、研究过程、信息获取和失败模式。",
   "Explore the analysis.": "查看各项分析。",
-  "Explore the dataset and code. Paper link coming soon.": "查看数据集与代码。论文链接即将提供。",
+  "Explore the paper, dataset, and code.": "查看论文、数据集与代码。",
   "Explore the dataset, code, and evaluation protocol. The paper link will be added when available.": "查看数据集、代码与评测协议。论文发布后将补充链接。",
   "FEAS · strict feasibility": "FEAS · 严格可行率",
   "Facts support the work.": "事实支持工作。",
